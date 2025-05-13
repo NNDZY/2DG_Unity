@@ -1,0 +1,1358 @@
+fileFormatVersion: 2
+guid: bd240bb03796f70428e87b13d9886b70
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1773
+        width: 1427
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6df4cb8058c8247a07a7ed99adbdac
+      internalID: -995598510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_1
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 72
+        width: 1106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf43ce715bb17154892b41ab9d0117b8
+      internalID: 1083403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_2
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1397
+        width: 300
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c06d467e5f86548915f3b9d5bc9e01
+      internalID: -1101658686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 795
+        width: 281
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5677506e5d0a27c41b25a8fa9b9b517f
+      internalID: 376084072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 414
+        width: 289
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea97092f2955bba4cb6ce15b3126a57b
+      internalID: 1176916539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 83
+        width: 297
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9072031935ddae743abdbb1346c28258
+      internalID: -687071603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_6
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 807
+        width: 242
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef452ce4ff4f837478b2b5f7f30a7be8
+      internalID: 1904551525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_7
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 433
+        width: 250
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d20f0e2a406f7641b52e6323ea84dbc
+      internalID: 753371761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_8
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 56
+        width: 254
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdf6b473e7a1294881271abe0e81f9d
+      internalID: -274637645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_9
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 772
+        width: 269
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03373f28abda3045bbe0c42bb318dae
+      internalID: 1380074726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_10
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 387
+        width: 280
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b46713b6796a42b660dc6a1698feb
+      internalID: 2101833624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_11
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 14
+        width: 288
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a54ed35af4d94baf32383f40a47d5
+      internalID: 269172342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_12
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1119
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074caeaa79c94b14183a2205bc169890
+      internalID: 1011343481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_13
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 1751
+        width: 297
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d5261f240508848852bf6f4782b720
+      internalID: 513817400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_14
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 1373
+        width: 304
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7334ebf643149247b0aad89f6e720ae
+      internalID: 745039710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_15
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 996
+        width: 308
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986d2f265096bfa40b3bf475b36df529
+      internalID: -64314053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_16
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 619
+        width: 254
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa92ffaae8215499d077d3aabf31ac
+      internalID: -34588422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_17
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 272
+        width: 272
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751fbbaa330903640b11012313fa9ca9
+      internalID: -1390191463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_18
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 1731
+        width: 281
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6c90e571ccaa94db7567fd441a7f49
+      internalID: 1032135180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_19
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 1350
+        width: 301
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04edd17d04cc95b45b82b7518150660a
+      internalID: 1605273769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_20
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 973
+        width: 319
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdba15c115e3a84d88c9f654de7a441
+      internalID: -566693030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_21
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 630
+        width: 219
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8808aaa7c9f4d4da861d9ea5c511bd
+      internalID: 693913021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_22
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 248
+        width: 230
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15e06e21317af34397ce57585865e52
+      internalID: 1529678503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_23
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1704
+        width: 243
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6987418b84e05f9479a1e2a6ec61da88
+      internalID: 1100498683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_24
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1319
+        width: 254
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787fb54273741914c962c825325f1c08
+      internalID: -968159677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_25
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 997
+        width: 266
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1f72f0ea98ad24ea5ac38185429572
+      internalID: 1819603718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_26
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 618
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8725243873c03454f9f95f1f229637e7
+      internalID: -393024914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_27
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 241
+        width: 273
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4a246415eb9004baa4ab6fa479eff9
+      internalID: -581934621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_28
+      rect:
+        serializedVersion: 2
+        x: 4191
+        y: 1700
+        width: 281
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920f7940d0410a14ab00bf85d8e178ae
+      internalID: 1878768535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_29
+      rect:
+        serializedVersion: 2
+        x: 4191
+        y: 1419
+        width: 293
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e536707a7173da4bb29d88b6e545151
+      internalID: 82711707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_30
+      rect:
+        serializedVersion: 2
+        x: 4191
+        y: 1042
+        width: 301
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd7974694c725343be97f7c0b01cb0e
+      internalID: -901290136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_31
+      rect:
+        serializedVersion: 2
+        x: 4191
+        y: 664
+        width: 311
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486ecaaa1c3c5454f878e540c3302e9e
+      internalID: 97878490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_32
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 283
+        width: 312
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d4c5172bc37424191242a4c4bfcc26
+      internalID: 1346761069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_33
+      rect:
+        serializedVersion: 2
+        x: 4719
+        y: 1743
+        width: 319
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962dacc0c1a52994c9b52396c345e040
+      internalID: 473866665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_34
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 1362
+        width: 331
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ee3640be7bfd14984a2f7d2475c40f
+      internalID: -971366595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_35
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 984
+        width: 343
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef3becc316e2014d80113ad86e9277a
+      internalID: 1661665304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_36
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 603
+        width: 350
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3733aeb7926e1d74d93ba032151d9827
+      internalID: 1700841326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_37
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 272
+        width: 358
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15745960ff1cade458f7e3fd00457bf5
+      internalID: 981901299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_38
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 1773
+        width: 318
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a9bbe526cc4df4e91bc6ff141917f2
+      internalID: 558356192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_39
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 1392
+        width: 321
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adc8c0a0b8da7041af3fcb3862acced
+      internalID: 1298732975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_40
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 1011
+        width: 330
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9981a9feff3582847856b0c0b04fb573
+      internalID: 1811730170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_41
+      rect:
+        serializedVersion: 2
+        x: 5233
+        y: 630
+        width: 352
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d45896ab589004aa48022c5dd84c1c
+      internalID: -379142814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_42
+      rect:
+        serializedVersion: 2
+        x: 5239
+        y: 249
+        width: 357
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc61a5159d91364d9273dee6b214880
+      internalID: -703437636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_43
+      rect:
+        serializedVersion: 2
+        x: 6248
+        y: 1708
+        width: 344
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fa07858c246fd4aa78082128bd6c2d
+      internalID: 2045472692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_44
+      rect:
+        serializedVersion: 2
+        x: 6251
+        y: 1404
+        width: 283
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7c4ab5554bbc449bc52e79dc1fa012
+      internalID: -795168494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_45
+      rect:
+        serializedVersion: 2
+        x: 6255
+        y: 1023
+        width: 289
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd854484fa68fcd47b0f71c9d2dde3a9
+      internalID: -1878188931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_46
+      rect:
+        serializedVersion: 2
+        x: 6255
+        y: 642
+        width: 289
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd20a58de1ec9d49bfc2e842d05a5c7
+      internalID: -832535260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_47
+      rect:
+        serializedVersion: 2
+        x: 6255
+        y: 264
+        width: 301
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba78d58fe5111b74298732a15615638c
+      internalID: -1834035706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_48
+      rect:
+        serializedVersion: 2
+        x: 6772
+        y: 1723
+        width: 312
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22260cd9e3104174388b4d95e97e3cfb
+      internalID: -1826428971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_49
+      rect:
+        serializedVersion: 2
+        x: 6773
+        y: 1339
+        width: 333
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bc50c4a7b68f04dbd450cef59925a9
+      internalID: -175113457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_50
+      rect:
+        serializedVersion: 2
+        x: 6775
+        y: 958
+        width: 345
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa5de33157725b49b458b0bb2dbb7a3
+      internalID: -412319739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_51
+      rect:
+        serializedVersion: 2
+        x: 6779
+        y: 597
+        width: 350
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434ab2a5de505844abef64a073c35431
+      internalID: -1684733452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_52
+      rect:
+        serializedVersion: 2
+        x: 6779
+        y: 216
+        width: 361
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fcfb60629a3fe4698506da3f476bc9
+      internalID: -427614596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_0: -995598510
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_1: 1083403
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_10: 2101833624
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_11: 269172342
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_12: 1011343481
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_13: 513817400
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_14: 745039710
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_15: -64314053
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_16: -34588422
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_17: -1390191463
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_18: 1032135180
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_19: 1605273769
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_2: -1101658686
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_20: -566693030
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_21: 693913021
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_22: 1529678503
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_23: 1100498683
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_24: -968159677
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_25: 1819603718
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_26: -393024914
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_27: -581934621
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_28: 1878768535
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_29: 82711707
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_3: 376084072
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_30: -901290136
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_31: 97878490
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_32: 1346761069
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_33: 473866665
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_34: -971366595
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_35: 1661665304
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_36: 1700841326
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_37: 981901299
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_38: 558356192
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_39: 1298732975
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_4: 1176916539
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_40: 1811730170
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_41: -379142814
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_42: -703437636
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_43: 2045472692
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_44: -795168494
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_45: -1878188931
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_46: -832535260
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_47: -1834035706
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_48: -1826428971
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_49: -175113457
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_5: -687071603
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_50: -412319739
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_51: -1684733452
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_52: -427614596
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_6: 1904551525
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_7: 753371761
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_8: -274637645
+      Arcade - Taiko no Tatsujin 2020 Version - Song Clearance Animation_9: 1380074726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

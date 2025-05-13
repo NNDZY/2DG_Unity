@@ -13,10 +13,16 @@ public class Note : MonoBehaviour
     Image noteImage;
 
 
-
-    private void Awake()
+    //1번씩 호출
+    private void OnEnable()
     {
+        //노트이미지가 비활성화일때만 컨포넌트를 가져와서 활성화한다
+        if(noteImage==null)
+        {
         noteImage = GetComponent<Image>();
+
+        }
+        noteImage.enabled = true;
     }
 
 
@@ -30,9 +36,15 @@ public class Note : MonoBehaviour
     }
 
     //노트를 숨김
-    private void HideNote()
+    public void HideNote()
     {
         noteImage.enabled = false;
+    }
+
+    //노트이미지를 비활성화
+    public bool GetNoteFlag()
+    {
+        return noteImage.enabled;
     }
 
 

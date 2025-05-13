@@ -26,9 +26,15 @@ public class TimingManager : MonoBehaviour
     Vector2[] timingPositions = null;
 
 
+    EffectManager effectManager;
 
-    private void Awake()
+
+    private void Start()
     {
+        effectManager = FindObjectOfType<EffectManager>();
+
+
+
         //배열의 크기 : 판정의 개수만큼
         timingPositions = new Vector2[timingRect.Length];
 
@@ -48,15 +54,32 @@ public class TimingManager : MonoBehaviour
         //노트리스트를 돌면서
         for(int j=0; j<createdNoteList.Count; j++)
         {
-            //생성된노트의 변수
+            //생성된노트의 위치변수
             float notePosX = createdNoteList[j].transform.localPosition.x;
 
-            //판정목록을 돌면서
-            for(int k=0; k<timingPositions.Length; k++)
+
+            //판정목록을 돌면서(0부터 돌아야 퍼펙트부터 내려가면서 판정함)
+            for (int k=0; k<timingPositions.Length; k++)
             {
                 //노트 위치가 판정범위 내라면
                 if (notePosX >= timingPositions[k].x && notePosX <= timingPositions[k].y)
                 {
+                    //노트를 숨기고, 리스트에서 지우기
+                    createdNoteList[j].GetComponent<Note>().HideNote();
+
+
+                    //판정이 퍼펙, 그레잍,굿일때만 이펙트 호출
+                    if (k<timingPositions.Length-1)
+                    {
+                        //타격이펙트
+                        effectManager.NoteHitEffect();
+                        //판정이펙트
+                        effectManager.JudgementEffect(k);
+                    }
+
+                    createdNoteList.RemoveAt(j);
+
+
                     Debug.Log("판정 :" + k);
                     return;
                 }
@@ -66,6 +89,8 @@ public class TimingManager : MonoBehaviour
 
         }
         Debug.Log("Miss");
+        //미스이펙트호출
+        effectManager.JudgementEffect(4);
 
     }
 }

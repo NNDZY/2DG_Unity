@@ -1,0 +1,1160 @@
+fileFormatVersion: 2
+guid: e47e66721cac8c642ba600505e6dbda7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1840
+        width: 324
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d8f2024faf1574285677aa27b1ac50
+      internalID: 631338033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1640
+        width: 324
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fd506717953ea4c817cdd56176d948
+      internalID: -623602008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 324
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bbb433efa014f479c698cdac054b69
+      internalID: 1423756900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1240
+        width: 324
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01a6aa668b73c946961fc7121cff468
+      internalID: 1890203068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 324
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75462d3fc3cc0f143990b23189297a19
+      internalID: -1680922624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 936
+        width: 321
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4cf05f9be14d742bd30655bb6f4f78
+      internalID: -64210846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 856
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d456474fc43344e839cedf944e3d2a
+      internalID: -1171631000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 856
+        width: 158
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0061d08ea3a4946859fe8fc0dc4953
+      internalID: 199167540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 776
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427f4972cbfbdb64aaa018f60efd0b6f
+      internalID: -244821606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 811
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d5601a60c2dd04b9ec618c6de50de4
+      internalID: -1339437820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 696
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce26ec6bfcb741f4bbce1d855f67f6d3
+      internalID: 2051638089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 763
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014662a7f14d0a74ba02919d6248aa17
+      internalID: -76763730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 722
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc0ffd1e3e341246876e5ce90894f5c
+      internalID: -867080145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 616
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc0000eb492c7a428d0ef4e9bdd633f
+      internalID: -1353873520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 682
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbabe77ff54afe4d8c80e399c78a0dc
+      internalID: 2081505035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_15
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 642
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88276f65179892a4ab17688ba0242b2a
+      internalID: -555774855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 536
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b827d69c2937f3448a8393f1aa2d4d9
+      internalID: 1706968617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_17
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 602
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bcd97d2e79e204a8d98a0b3c5e4202
+      internalID: -654644926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 562
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9826ff4f4cc9694495a84c7de4ce023
+      internalID: -1065219008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 456
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70982b628f77a4848bf3d886758fd86d
+      internalID: -428228572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 522
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb62a87cc6117284a800bf891fc453e6
+      internalID: -1206729453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 482
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5c64e7ac79cfb44a058eeb0c6725dc
+      internalID: 1972037278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 376
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d404e0cac8a8abb4fae314b93e678ae6
+      internalID: 1262534869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_23
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 442
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dcb8780338af347b945604a6c44098
+      internalID: 248572550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_24
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 402
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb9a7979a365f7429b7eab6a0de29d1
+      internalID: -883021676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 296
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11af2f04c577f614c9f8104838d03803
+      internalID: 1117114590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_26
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 362
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8e0a8cb55a0ec44aab1cb89c930188
+      internalID: -69507010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_27
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 329
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68708fee0db00dc469295f47d9864a74
+      internalID: 989209933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_28
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 297
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2fd8c71dad6454fb1bafa095fb7e5f
+      internalID: -1886114280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 216
+        width: 150
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b144cfbc0570ffc409699493177afcb1
+      internalID: 1891582662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 265
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119e719ec9c21b34584902d8b546c71e
+      internalID: -1940955021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 233
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b71474f8a26f43b682062c3035f27
+      internalID: -1482423977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 136
+        width: 151
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebb1249bc360a64b8df1ccb6b57cf33
+      internalID: 6136137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_33
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 201
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac3af32f27037e439064a6f68ba9546
+      internalID: -52337511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_34
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 169
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fabdd549f86be46b7d60be36887479
+      internalID: -1918054091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_35
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 137
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e2bb29d0a91434caa7da2813578cf5
+      internalID: 1154622224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 56
+        width: 152
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418dfb071b688594da6a2e4de843f907
+      internalID: 1749210850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 105
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ddd72e17900a54a8ab70feaa77a547
+      internalID: -2033899792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_38
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 73
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf95d6c47bcc14d93df8f8333d8f49
+      internalID: 1299953168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_39
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 10
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2961185b20b1649ad79111a12111a4
+      internalID: 1784195216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_40
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 9
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c9072107a7dc34d89e44003b01d92e
+      internalID: 2000158019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 10
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6512c8f0ed4d0124ebeb6765278c5740
+      internalID: 280750676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 24
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd6addb4d2de024487b08d6af0dabce
+      internalID: -1889937588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_43
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c950395e48d34a04691610aa8867c773
+      internalID: -2102825010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_0: 631338033
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_1: -623602008
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_10: 2051638089
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_11: -76763730
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_12: -867080145
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_13: -1353873520
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_14: 2081505035
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_15: -555774855
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_16: 1706968617
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_17: -654644926
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_18: -1065219008
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_19: -428228572
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_2: 1423756900
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_20: -1206729453
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_21: 1972037278
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_22: 1262534869
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_23: 248572550
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_24: -883021676
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_25: 1117114590
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_26: -69507010
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_27: 989209933
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_28: -1886114280
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_29: 1891582662
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_3: 1890203068
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_30: -1940955021
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_31: -1482423977
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_32: 6136137
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_33: -52337511
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_34: -1918054091
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_35: 1154622224
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_36: 1749210850
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_37: -2033899792
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_38: 1299953168
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_39: 1784195216
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_4: -1680922624
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_40: 2000158019
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_41: 280750676
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_42: -1889937588
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_43: -2102825010
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_5: -64210846
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_6: -1171631000
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_7: 199167540
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_8: -244821606
+      Arcade - Taiko no Tatsujin 2020 Version - Scoreboard_9: -1339437820
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

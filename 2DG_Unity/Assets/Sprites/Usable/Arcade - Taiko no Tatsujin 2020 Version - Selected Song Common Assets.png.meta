@@ -1,0 +1,1842 @@
+fileFormatVersion: 2
+guid: 6717439b72d458841a5928e734678943
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 326
+        width: 216
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6006f108512fdde4b80de8d75df2fe61
+      internalID: -1709089199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 313
+        width: 242
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607618d5df185bb479e36499b2ce77c5
+      internalID: 884925483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 327
+        width: 216
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469d383f732150d4285a6ee0ea53d612
+      internalID: 691070767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 328
+        width: 222
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf81675a4297d34289443236800c7e5
+      internalID: 1323278234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_4
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 537
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f627773d0bb99b4ab77d323f693bf9c
+      internalID: -443721278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_5
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 550
+        width: 138
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11fc3dd2570190478de2156afc7c4ce
+      internalID: -1380444756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_6
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 616
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d090ea94e0c17724cbf70d568d06f839
+      internalID: -784376253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_7
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 615
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed004773d6be7641a0aa52cc1f5a682
+      internalID: 1107394872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_8
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 615
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4b4fc68020a8340b2d034d5ce7fc8d
+      internalID: 1328740213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_9
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 536
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b542821f95b92243908fb84fdc22ab1
+      internalID: 1136660704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_10
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 535
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef5880683a8b3d468c53e2e6e6cd5e6
+      internalID: 1533481748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_11
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 535
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2320a3f66d4a5e844843b59ad0c1bc8a
+      internalID: -1379428603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_12
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 374
+        width: 134
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044251adebe26c848846f54fb0c8c728
+      internalID: -342277987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_13
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 456
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36914519cc165c46b8b15a4ee8e1daf
+      internalID: 1672409178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_14
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 455
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0edc95ec3805fc46903b2b27be40aeb
+      internalID: -1027441478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_15
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 455
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cca5466e448444f83d0b97a05da512
+      internalID: 838504661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_16
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 392
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6541d400dbee41545b8aa16824f503a3
+      internalID: -1485704120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_17
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 385
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a00ce59d78d6949965a007500fc7f2
+      internalID: -440426818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_18
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 381
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4897dff2acaa4d640ac0332e54ee35fb
+      internalID: 541468491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_19
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 329
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a45f57526747149936fb7c7e262adb
+      internalID: 2078450244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 314
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ff9e5c948bff74cb1680fa7e871a9e
+      internalID: -368690545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_21
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 293
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5276353c0ab980428ddce94248b9923
+      internalID: 2128904883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_22
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 165
+        width: 396
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d80677aff4a46145a9a15048639df23
+      internalID: 558788366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_23
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 148
+        width: 122
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaeb63421f2f9c4f8c07bfb118457e6
+      internalID: 2082852170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_24
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 148
+        width: 122
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbe3472e96b3ef49897ed39caea012b
+      internalID: -66741973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_25
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 221
+        width: 102
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d21edb8c085dbe45ac726206c26c2b1
+      internalID: 345171187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_26
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 227
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e92ede1da4825149b2d5c21c0bcf868
+      internalID: 495622172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_27
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 243
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323994ff68c3c484bb504e17b783bc74
+      internalID: 1636769285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_28
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 252
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a5b3d0e2621674eb3cefa59306af64
+      internalID: 539654785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_29
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 251
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad8b86ac1c9a7d41beb1989e5d66c5e
+      internalID: -292609523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_30
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 252
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69637212b13581444a6d006a184e690d
+      internalID: 860478624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_31
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 265
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdba713410831d8409d293eb40de7a3a
+      internalID: 1788837110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_32
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 243
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351e4094fc4dd674a8994262db0ee604
+      internalID: 1633931479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_33
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 184
+        width: 95
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be6474f481485c4db148c8397f9deac
+      internalID: 234508383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_34
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 186
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665e57e5396b04a4eb60f31d97404d9a
+      internalID: 2101111426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_35
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 219
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4eb25996c7b924eb3f787999b5efec
+      internalID: 483415897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_36
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 218
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bff0b131a3e0f42be34d43fb0516ed
+      internalID: 206928541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_37
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 219
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0428af39e6a915848a2552983cd1012f
+      internalID: 1906869285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_38
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 202
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8d5d8ed348a92448b05c4c849d86b9
+      internalID: -1197078372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_39
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 172
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c564a92918d2208488cb77e66a985c38
+      internalID: -1221475477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_40
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 154
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb810c5a2faf4c14788b5e79aa1faa1c
+      internalID: 753060840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_41
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 155
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f46d693f44b764f8587a93dce8c4ef
+      internalID: -1802354480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_42
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 167
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fee3438990a4554bb0c89a1a6f26618
+      internalID: -734041644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_43
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 179
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30be3115c36db9347998ebfd728ccf01
+      internalID: 218850831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_44
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 179
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c69276d8a4078f4b8fb8cb933cab41a
+      internalID: -1917823660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_45
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 188
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d55ea68aac3cc42a5b08cfefa123a5
+      internalID: -1511828467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_46
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4caefd3f970054497fea69f7651019
+      internalID: -1670235024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_47
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 188
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dbc64a620362f468870181b57da090
+      internalID: -1309969143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_48
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 188
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b172836c050e94f4a808ea03438de29f
+      internalID: 1447253505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_49
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 188
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de8166ad99a60f4db8589eaff6e0126
+      internalID: 804247910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 110
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f9aa834a015804b8a9febc02bc9d19
+      internalID: 923624421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 110
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40cb747bababa143bac671747b20606
+      internalID: -64795558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 110
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154dfb88d6a193e45ba3fd4764de2c02
+      internalID: -1613492729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_53
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 110
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5202db74214c0504ea3f460ad2fbe67a
+      internalID: -1257880312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_54
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 110
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9558757f4db3bc1478a991bddd0831f3
+      internalID: -109870065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_55
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 110
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a79ee9a35ccff4a8af61653a9567c8
+      internalID: -1440666511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_56
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 115
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38a16d28ead3d744a5f7819ed6f0a1f
+      internalID: -1600894943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 112
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ffd936cbb8c934697071e32759ec9a
+      internalID: 177540335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_58
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 139
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d848f4d6c9511704f9603df92ec30dd1
+      internalID: 373482548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_59
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 100
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874bc4c2818002746950e7c7d34fd2bb
+      internalID: 839742371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_60
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 390
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c686527a03bc74aba8eabc463418af
+      internalID: 612405885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_61
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 114
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6966e7888b67d4945bd24cfd636871ba
+      internalID: -747807191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_62
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 0
+        width: 114
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d528474420d5aac4da2ccacafa4ca2a0
+      internalID: -1420567291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_63
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 114
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be282a78ba83b9047beebdb07b032590
+      internalID: 1526486608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_64
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 0
+        width: 114
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e5d1e84f5e36e49914f8e3f967a443
+      internalID: -141341208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_65
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 76
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cf586807698c44daac473e34ab9832
+      internalID: -2022427994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_66
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 29
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb8cae2080578a47b6a8fa446eb8861
+      internalID: -1813685499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_67
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037c56ab1c0e46345893167525a5f1c7
+      internalID: 874461386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_68
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 11
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb47d3691a544e4d94d3c2d56d993e6
+      internalID: -1466935929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 166
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46e147e446eda94b8f3bf7c09f76c0c
+      internalID: -1775675840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_70
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 12
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee9af7eb3a0c2149af54d5cc44eff34
+      internalID: -1920882855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_71
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 12
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee677be0d476a1b4da2572ed43b1bda5
+      internalID: -287763394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_72
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b800532dbd944014a8c7720a83a272b8
+      internalID: -735082162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_73
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 4
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4239ba22b1023d4cb5ad91cdd5b22e1
+      internalID: -1488139248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_74
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e0f90b731d2f74d88209d18200bbae
+      internalID: 313324721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_0: -1709089199
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_1: 884925483
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_10: 1533481748
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_11: -1379428603
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_12: -342277987
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_13: 1672409178
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_14: -1027441478
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_15: 838504661
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_16: -1485704120
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_17: -440426818
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_18: 541468491
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_19: 2078450244
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_2: 691070767
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_20: -368690545
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_21: 2128904883
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_22: 558788366
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_23: 2082852170
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_24: -66741973
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_25: 345171187
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_26: 495622172
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_27: 1636769285
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_28: 539654785
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_29: -292609523
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_3: 1323278234
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_30: 860478624
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_31: 1788837110
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_32: 1633931479
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_33: 234508383
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_34: 2101111426
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_35: 483415897
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_36: 206928541
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_37: 1906869285
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_38: -1197078372
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_39: -1221475477
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_4: -443721278
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_40: 753060840
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_41: -1802354480
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_42: -734041644
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_43: 218850831
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_44: -1917823660
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_45: -1511828467
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_46: -1670235024
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_47: -1309969143
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_48: 1447253505
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_49: 804247910
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_5: -1380444756
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_50: 923624421
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_51: -64795558
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_52: -1613492729
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_53: -1257880312
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_54: -109870065
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_55: -1440666511
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_56: -1600894943
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_57: 177540335
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_58: 373482548
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_59: 839742371
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_6: -784376253
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_60: 612405885
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_61: -747807191
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_62: -1420567291
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_63: 1526486608
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_64: -141341208
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_65: -2022427994
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_66: -1813685499
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_67: 874461386
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_68: -1466935929
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_69: -1775675840
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_7: 1107394872
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_70: -1920882855
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_71: -287763394
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_72: -735082162
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_73: -1488139248
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_74: 313324721
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_8: 1328740213
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Common Assets_9: 1136660704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

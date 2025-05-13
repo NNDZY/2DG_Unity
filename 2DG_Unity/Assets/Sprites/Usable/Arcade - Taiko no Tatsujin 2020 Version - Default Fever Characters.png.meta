@@ -1,0 +1,943 @@
+fileFormatVersion: 2
+guid: 7b580c92209f74a4893eb6553c6f2702
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 772
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b36d5f1e0127c4381f6345f383cfc8
+      internalID: 1309592436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1300
+        width: 752
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0ba2b0ba034384893693d3c35b7190
+      internalID: 2095115867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_2
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1558
+        width: 750
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdbe1a8703b57847a98273e1b92150b
+      internalID: -744109197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_4
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1566
+        width: 628
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86de10e1873d60d48a3b17cc2c97af5a
+      internalID: 1153172282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_5
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 1625
+        width: 114
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642842a5877f1b94dbb22f6017cf156c
+      internalID: 1240626966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 547
+        width: 783
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941ec4dcf79d6b7479a32ec46117f941
+      internalID: 1575157703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_7
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 547
+        width: 789
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ea13bb0f908434786a725c78b932e2
+      internalID: -770079215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_8
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1049
+        width: 412
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40d5156962214848a15143b3e662919
+      internalID: 1004693030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_9
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 542
+        width: 750
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49c2eccce3905843a16ffaac97f627b
+      internalID: 806168968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_10
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 1013
+        width: 367
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b445d46a67beb84088db9a6942bb601
+      internalID: -696948506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_12
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 861
+        width: 106
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc8065a4d92874baa33c4399e13f74
+      internalID: 219136354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_13
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1099
+        width: 725
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1a53efcce297c43a2e8c12fb86e4fb
+      internalID: 20113913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_14
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 835
+        width: 93
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc73ba8538e33f4eb8890a4bef110f3
+      internalID: 930063284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_16
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 693
+        width: 111
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e240116b5c677448a09a1482f5634c8
+      internalID: -355377417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_17
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 686
+        width: 121
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1220653eee089634f808f5c4666201de
+      internalID: -1064061778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_18
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 513
+        width: 116
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4521acb40d84c942bb4aeb0c586792e
+      internalID: 950605065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_19
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 528
+        width: 108
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dd1297d85b6ea44adf8027ba3e9986
+      internalID: -1503106325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 304
+        width: 151
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a060984df49e98489fd628f04bcee2d
+      internalID: -1587416989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_21
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 332
+        width: 159
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70fb2a80ca0bdf4dbb22dd4e9c9da69
+      internalID: -252571332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_22
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 322
+        width: 166
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78c33a524dc95f40909428afdaaff37
+      internalID: -1680457167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_23
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 327
+        width: 94
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79002249dc63694b918b64bc940c1a9
+      internalID: 1236470036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_24
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 354
+        width: 118
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efb0bcb1dd5c2345b84376057824a3f
+      internalID: 1984639642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_25
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 32
+        width: 399
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c254ddbbf2944c438580e20566ba326
+      internalID: 1100351141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_26
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 0
+        width: 294
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa3e65e8ae6bd841b09d596bff08910
+      internalID: 643572258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_27
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 346
+        width: 113
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c962d1949b0d304ca0c701144b5ac0e
+      internalID: 1244887960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 152
+        width: 172
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f010a36b423457b41ab63c968eba4d94
+      internalID: 1305022138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_29
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 129
+        width: 155
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420089f0cd6667e46a5c57788d613de1
+      internalID: -1767526994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_30
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 139
+        width: 177
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b1d032f4de7804aa71aef36cbae577
+      internalID: -1477941945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_31
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 171
+        width: 94
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5837e136369314785c0b880e83bba7
+      internalID: -574927376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_32
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 180
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2b3dc5ff3b4884c99711034791dc6d
+      internalID: 1653300970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_33
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 188
+        width: 132
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa93914570b6ee44bf103edd91d9007
+      internalID: 1170959376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_34
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 19
+        width: 122
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b6ccd942f90e44b88b7de3a527bcfe
+      internalID: -1579802272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_35
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 27
+        width: 93
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530a7890af10ef04982f694bbfdcf130
+      internalID: -656130443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_36
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 16
+        width: 128
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df8bd0ab54da394895e4644bdde06f8
+      internalID: -38961872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_0: 1309592436
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_1: 2095115867
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_10: -696948506
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_11: 1074488967
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_12: 219136354
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_13: 20113913
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_14: 930063284
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_15: -736994894
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_16: -355377417
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_17: -1064061778
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_18: 950605065
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_19: -1503106325
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_2: -744109197
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_20: -1587416989
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_21: -252571332
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_22: -1680457167
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_23: 1236470036
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_24: 1984639642
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_25: 1100351141
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_26: 643572258
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_27: 1244887960
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_28: 1305022138
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_29: -1767526994
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_3: -16508069
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_30: -1477941945
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_31: -574927376
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_32: 1653300970
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_33: 1170959376
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_34: -1579802272
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_35: -656130443
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_36: -38961872
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_4: 1153172282
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_5: 1240626966
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_6: 1575157703
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_7: -770079215
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_8: 1004693030
+      Arcade - Taiko no Tatsujin 2020 Version - Default Fever Characters_9: 806168968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

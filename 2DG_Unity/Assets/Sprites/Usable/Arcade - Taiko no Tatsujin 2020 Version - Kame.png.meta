@@ -1,0 +1,1688 @@
+fileFormatVersion: 2
+guid: 0836033a692b2df4b8b936dd4fab5f92
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a20a5482db56d4b94623e3eead2eda
+      internalID: -875873259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_1
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f99328abfc60964fbfcac917af0c011
+      internalID: 781329794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68815c982358bd4f9d9bb027d6fc85a
+      internalID: 1714978542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_3
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fd555530341b046973c80755e7e6bb
+      internalID: 1454751828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_4
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7df98805408f184185ad93ff8bea7b4
+      internalID: 1138775403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_5
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6de6d59a3257942815f74d5977430f
+      internalID: 427064000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_6
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556931b113dcc7541a09ed8ff3846317
+      internalID: 633376370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_7
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb87bafe7c84ff64bb5e1cc05bbd1ba2
+      internalID: 561335346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_8
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d7eb9b830ce164dafbd5975dc1bc7a
+      internalID: 799289430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_9
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0159e8c8be1d76440a5ba74a31245f32
+      internalID: -1369397824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_10
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c7f5e0ed71c3842a47c27bd8a18422
+      internalID: 943598915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_11
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 1311
+        width: 457
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4471ecc2f0b8b24ea63284e978b8463
+      internalID: 164954766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_12
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 1311
+        width: 420
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fe4433bafaca44aa14773ee1beaa8d
+      internalID: 168870078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_13
+      rect:
+        serializedVersion: 2
+        x: 5720
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cda2062dfd188642ab236968eb5f5cc
+      internalID: 1073753450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_14
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc846e24ce7ea94faecbf5076220ad9
+      internalID: 496313283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_15
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f53f3a489657c47900cc1c7ffec00b
+      internalID: 247472585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_16
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 1311
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f758021f96992f45ab3eb018256429d
+      internalID: -2074322625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c1aaf32d0724e49b45bf7bb7cc96b4
+      internalID: -1375007523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ec2b76d9cf24448baf26a3fece07b7
+      internalID: -2083272947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_19
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e077babcd47133d4eb44ddb463dfd7ea
+      internalID: 341193019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_20
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36d682d8fa3fb340859a04ee623c23b
+      internalID: 273907316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_21
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d5781020ce7d14f863a24163d813ee
+      internalID: 309407039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_22
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd44cbdb375a7c241b5a9fdab5d52865
+      internalID: -468689786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_23
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c94c8ed9974c94ebbd0bd583bd9974
+      internalID: -1338958162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_24
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb618197cb44a84bb85015210a20ffd
+      internalID: 1046972160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_25
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e235f8bbd887749acb54398c2f2b73
+      internalID: 1399088692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_26
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186c242831bf51c42a366ba99df652f8
+      internalID: 1678889997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_27
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f91cc27cd202947bb6856dba133153
+      internalID: -773366885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_28
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 874
+        width: 465
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53638c5d289dac7479f6593b6183dd0d
+      internalID: 2044451094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_29
+      rect:
+        serializedVersion: 2
+        x: 5305
+        y: 874
+        width: 415
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de4ff25dac3e9e469d2a3fc216b4f99
+      internalID: 2031327252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_30
+      rect:
+        serializedVersion: 2
+        x: 5720
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0fd7c4004908d429dd24616fe5b912
+      internalID: 1842863324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_31
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae9e7986443ff54684de99e947002b1
+      internalID: -506693744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_32
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639a6dce39774fc46bbeacb2109e6125
+      internalID: 978236146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_33
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 874
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f00a9297712a904689be51c9dfa0a17
+      internalID: -721954121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b1411f075f53f499e0e4acc3ef4477
+      internalID: 1050570395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_35
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ccef399633fc446ab8a648ab0aab8c
+      internalID: -324036164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_36
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce2297e71f2b22468bb0677b539f034
+      internalID: 1298571871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_37
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58c1a79d5c24d2428640dbb44e8d40b
+      internalID: -1103273737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_38
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b903a8f08e4f5b0479eaea8eb6be3c4a
+      internalID: 2082431175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_39
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515f9653e7c8c3e4bb19d0cab49b9fd8
+      internalID: 1158999667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_40
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0b025292b1cd4488d15a9456a1a979
+      internalID: -432948525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_41
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5e382a24715ff4989dd3cff1c51e95
+      internalID: -328697441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_42
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d12da54745d6e479921816fc3d6c34
+      internalID: -1840576340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_43
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd42374a5a1dc744a6431859d7fbd75
+      internalID: -1821312801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_44
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f4551470eb9e54da8bdae265fc11ed
+      internalID: -186540419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_45
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f008d3b8b21c94f95e6d440a1b750b
+      internalID: -349944333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_46
+      rect:
+        serializedVersion: 2
+        x: 5280
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c591163244ec5a7449bc15ae3758b745
+      internalID: 135837919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_47
+      rect:
+        serializedVersion: 2
+        x: 5720
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830b7717783b2614eafb017596fa479b
+      internalID: -2024560592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_48
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30487e33e8e7a0a4ebedc36f54949562
+      internalID: 1050505450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_49
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b6866670f3d4244a17b53a956c1ee0
+      internalID: -1535597178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_50
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 437
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75da59101eb7cd84594ff7fd2d5237de
+      internalID: -1872716935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284c7004bb7219e4cad37ebc7942dad0
+      internalID: 417891482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_52
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350f3ce309c0f7e40837923958d4ccff
+      internalID: 69585338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_53
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6836fcbacfc744bbbde93d61b4bc7c
+      internalID: -1308926653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_54
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d74eeb2166186438eae5ccd2124be6
+      internalID: 1801912930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_55
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d8d6f851c9d7741ae6a9ad3d444329
+      internalID: -1103384725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_56
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc22126ce8ae34c499d4f36caf1d02eb
+      internalID: -812266771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_57
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a206e9ae0da8d7342ba8ebfddb29d271
+      internalID: -792842715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_58
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6373a4566f5864cb96eb43f70a9673
+      internalID: -1577744557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_59
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405003cfdff5a0c4ea6c35b0471972fa
+      internalID: -1795543125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_60
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e0e52fa4658af4d8e50bd17f250a7a
+      internalID: 1746439442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_61
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a305edb9d871067489ebb55ce32244fc
+      internalID: -645723183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_62
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 0
+        width: 493
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbff855349dec64eaa0463d499cc698
+      internalID: -863416011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_63
+      rect:
+        serializedVersion: 2
+        x: 5333
+        y: 0
+        width: 387
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29398b794f4a55d49a468210a91bb05b
+      internalID: -1305476871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_64
+      rect:
+        serializedVersion: 2
+        x: 5720
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d60a51d16457de458357e8daaf8384e
+      internalID: 940982047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_65
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc0596872d719645bb4fc774585c1aa
+      internalID: -1171840371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_66
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84102848e13ee41459eec824d39ea1a2
+      internalID: 822057234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Kame_67
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 440
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db16d309d10e76247bbbc62f57409f80
+      internalID: -246890926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_0: -875873259
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_1: 781329794
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_10: 943598915
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_11: 164954766
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_12: 168870078
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_13: 1073753450
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_14: 496313283
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_15: 247472585
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_16: -2074322625
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_17: -1375007523
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_18: -2083272947
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_19: 341193019
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_2: 1714978542
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_20: 273907316
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_21: 309407039
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_22: -468689786
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_23: -1338958162
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_24: 1046972160
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_25: 1399088692
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_26: 1678889997
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_27: -773366885
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_28: 2044451094
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_29: 2031327252
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_3: 1454751828
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_30: 1842863324
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_31: -506693744
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_32: 978236146
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_33: -721954121
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_34: 1050570395
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_35: -324036164
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_36: 1298571871
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_37: -1103273737
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_38: 2082431175
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_39: 1158999667
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_4: 1138775403
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_40: -432948525
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_41: -328697441
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_42: -1840576340
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_43: -1821312801
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_44: -186540419
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_45: -349944333
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_46: 135837919
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_47: -2024560592
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_48: 1050505450
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_49: -1535597178
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_5: 427064000
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_50: -1872716935
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_51: 417891482
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_52: 69585338
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_53: -1308926653
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_54: 1801912930
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_55: -1103384725
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_56: -812266771
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_57: -792842715
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_58: -1577744557
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_59: -1795543125
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_6: 633376370
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_60: 1746439442
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_61: -645723183
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_62: -863416011
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_63: -1305476871
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_64: 940982047
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_65: -1171840371
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_66: 822057234
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_67: -246890926
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_7: 561335346
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_8: 799289430
+      Arcade - Taiko no Tatsujin 2020 Version - Kame_9: -1369397824
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

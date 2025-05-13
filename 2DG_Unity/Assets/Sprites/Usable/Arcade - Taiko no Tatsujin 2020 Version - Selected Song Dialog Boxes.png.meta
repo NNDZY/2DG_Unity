@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 6027f0e94da7d3a49b0d37a088c27260
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_0
+      rect:
+        serializedVersion: 2
+        x: 6235
+        y: 5326
+        width: 569
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b00f33072aa764a9a0e5c6de0ab63b
+      internalID: -1495007727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_1
+      rect:
+        serializedVersion: 2
+        x: 6235
+        y: 4957
+        width: 569
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4403750d61273e6478bf1842faa47f98
+      internalID: 242880630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_2
+      rect:
+        serializedVersion: 2
+        x: 6833
+        y: 5423
+        width: 580
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b9a052cc5e2764199a15ad9e26d3ae
+      internalID: -362420069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_3
+      rect:
+        serializedVersion: 2
+        x: 6836
+        y: 5160
+        width: 578
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ca3b2022c472a44ba0d309c6d2aa2a
+      internalID: 1596296960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_4
+      rect:
+        serializedVersion: 2
+        x: 7472
+        y: 5061
+        width: 417
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609308c38570cea478c7f883b759b74f
+      internalID: -1040783042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_5
+      rect:
+        serializedVersion: 2
+        x: 6891
+        y: 4688
+        width: 577
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf619f2283730641b61d7bf02d261b3
+      internalID: 1898668690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_6
+      rect:
+        serializedVersion: 2
+        x: 6891
+        y: 4426
+        width: 577
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613b31ec5566634478e025e1738ef037
+      internalID: 729252639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_7
+      rect:
+        serializedVersion: 2
+        x: 7471
+        y: 4782
+        width: 401
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d1160c9a9a2094b891bd72ce99f422
+      internalID: -464377719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_8
+      rect:
+        serializedVersion: 2
+        x: 7475
+        y: 4591
+        width: 395
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c301f0cbbbee8e459c595872c1344d2
+      internalID: 741381340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_9
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1296
+        width: 935
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54eddaa2d2622b4dab26344c67694cf
+      internalID: -1795480157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_10
+      rect:
+        serializedVersion: 2
+        x: 4966
+        y: 4888
+        width: 1243
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9f43eec9df700418f40744cef78d66
+      internalID: -485820913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_11
+      rect:
+        serializedVersion: 2
+        x: 4966
+        y: 4096
+        width: 1251
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8534344489080488092b8388cb316e
+      internalID: -334039201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_12
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 4886
+        width: 1248
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7232245245096f0418903ba777b398a7
+      internalID: -767824243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_13
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 4104
+        width: 1237
+        height: 773
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3227edde52cbfd45826e59308e46fb4
+      internalID: -382579706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_14
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 4880
+        width: 1240
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b82f98601dc40247b8f082a0ec14b68
+      internalID: -42062953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_15
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 4880
+        width: 1240
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d927756ea0e59345bcb794d261ed761
+      internalID: -856597235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4880
+        width: 1240
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2d63b5e57b0dd4c8c4e5cb6e92866f
+      internalID: -820083690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4103
+        width: 1240
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4317c0f1e57d28a46a1028ea95be18c9
+      internalID: -413218723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_18
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 4093
+        width: 1240
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c6b95bf05d4f2409a9a453faf6a589
+      internalID: 626399730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_19
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 4096
+        width: 1240
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db65c032f0e07f44da6570a114f3a7c6
+      internalID: 2018161110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3697
+        width: 1011
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687562c93d9368842870029937fbd358
+      internalID: 237026764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3441
+        width: 953
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e058145a9aff264598301470710cafc
+      internalID: -1200241162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_22
+      rect:
+        serializedVersion: 2
+        x: 6225
+        y: 4686
+        width: 644
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8811cafc4e2bd7428251d1df933499b
+      internalID: -1842062737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_23
+      rect:
+        serializedVersion: 2
+        x: 6227
+        y: 4422
+        width: 644
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02e0a7b6ff70554eac39ac9f4bf0302
+      internalID: 1807343964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_24
+      rect:
+        serializedVersion: 2
+        x: 6225
+        y: 4160
+        width: 644
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00906a0b3b4f26f4e9ff28574d727b5d
+      internalID: -2061082335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_25
+      rect:
+        serializedVersion: 2
+        x: 6227
+        y: 3896
+        width: 644
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a992bd909b7664198f24f950bc7686
+      internalID: 1132329966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_0: -1495007727
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_1: 242880630
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_10: -485820913
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_11: -334039201
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_12: -767824243
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_13: -382579706
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_14: -42062953
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_15: -856597235
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_16: -820083690
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_17: -413218723
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_18: 626399730
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_19: 2018161110
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_2: -362420069
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_20: 237026764
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_21: -1056024631
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_22: -1200241162
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_23: -1842062737
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_24: 1807343964
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_25: -2061082335
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_3: 1596296960
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_4: -1040783042
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_5: 1898668690
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_6: 729252639
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_7: -464377719
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_8: 741381340
+      Arcade - Taiko no Tatsujin 2020 Version - Selected Song Dialog Boxes_9: -1795480157
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
