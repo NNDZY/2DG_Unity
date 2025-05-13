@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: b9c157a00f1399c46a9a1aff689f86f4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_18
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 496
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f1af3a77d674d48a78083f5ce05c28
+      internalID: -550690368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 496
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3057003511af8f242b358d71213c9ac5
+      internalID: 31050766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_20
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 496
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891b92c93ce5df343aaabc5f4a080f51
+      internalID: -1986885176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_22
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 428
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d716912563ad64789185867eddea00
+      internalID: -1509901616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 428
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec15fa1cfb5b99a42b4cf305dd2e134b
+      internalID: 7131142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_24
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 428
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9002df64146a02f41ac40689a4be92b5
+      internalID: -1774134517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_26
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 281
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b057b03610e8ef44d8ef6a3cc1ae2e8f
+      internalID: 72758371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 281
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7c2c61e54f3c04fb418a19cef33a7d
+      internalID: 874170230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 165
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a41ac80b049f094a88855c05fee119b
+      internalID: 1514369129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_30
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 163
+        width: 67
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dfb2a0a9987b54eb756940ed81f6d3
+      internalID: 1135096743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 163
+        width: 95
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc96ca244ba4da4d859a7373df2abe6
+      internalID: 202579654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 67
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c520dfce22a859f4bba9f6394ff0f224
+      internalID: -1652852387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_34
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 69
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3688b07d1782cc142a27f7a62e72622e
+      internalID: 657494734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_35
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 70
+        width: 82
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39228c898021344589552acfeebf1b3
+      internalID: 1231936541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_36
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 76
+        width: 101
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e1fb83632e8844cb9767fef08d143e
+      internalID: 1496350347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_29
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 165
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eb7491a4c78e745a322060ab578adf
+      internalID: 933327432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 288
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee057fc31a62a44895393a703342d93
+      internalID: -1168521163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 287
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093f030f5f710f349ac383bf5b355006
+      internalID: 1715465245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 286
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b6e5e18715cf64b97d377f17952b3c
+      internalID: 383986076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be28c04758f22e1419c09026a9eb42f0
+      internalID: 1699035085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_53
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9320e09062dd4c64793382dbc0bb7e7d
+      internalID: -1515886148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_54
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 352
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a727b25f4d24e7b4a8c6baaa3fccca8d
+      internalID: -555261913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Taiko no Tatsujin - Notes_55
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 354
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cb6c9a8980a754e93710af7d1ed077
+      internalID: 79572068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Taiko no Tatsujin - Notes_0: -228171265
+      Mobile - Taiko no Tatsujin - Notes_1: -166513570
+      Mobile - Taiko no Tatsujin - Notes_10: -863908842
+      Mobile - Taiko no Tatsujin - Notes_11: -869818965
+      Mobile - Taiko no Tatsujin - Notes_12: -647305713
+      Mobile - Taiko no Tatsujin - Notes_13: -1875359134
+      Mobile - Taiko no Tatsujin - Notes_14: -302851052
+      Mobile - Taiko no Tatsujin - Notes_15: -319586681
+      Mobile - Taiko no Tatsujin - Notes_16: -1439908615
+      Mobile - Taiko no Tatsujin - Notes_17: -1168521163
+      Mobile - Taiko no Tatsujin - Notes_18: -550690368
+      Mobile - Taiko no Tatsujin - Notes_19: 31050766
+      Mobile - Taiko no Tatsujin - Notes_2: 1280032405
+      Mobile - Taiko no Tatsujin - Notes_20: -1986885176
+      Mobile - Taiko no Tatsujin - Notes_21: 1715465245
+      Mobile - Taiko no Tatsujin - Notes_22: -1509901616
+      Mobile - Taiko no Tatsujin - Notes_23: 7131142
+      Mobile - Taiko no Tatsujin - Notes_24: -1774134517
+      Mobile - Taiko no Tatsujin - Notes_25: 383986076
+      Mobile - Taiko no Tatsujin - Notes_26: 72758371
+      Mobile - Taiko no Tatsujin - Notes_27: 874170230
+      Mobile - Taiko no Tatsujin - Notes_28: 1514369129
+      Mobile - Taiko no Tatsujin - Notes_29: 933327432
+      Mobile - Taiko no Tatsujin - Notes_3: 381746143
+      Mobile - Taiko no Tatsujin - Notes_30: 1135096743
+      Mobile - Taiko no Tatsujin - Notes_31: 202579654
+      Mobile - Taiko no Tatsujin - Notes_32: 1399944844
+      Mobile - Taiko no Tatsujin - Notes_33: -1652852387
+      Mobile - Taiko no Tatsujin - Notes_34: 657494734
+      Mobile - Taiko no Tatsujin - Notes_35: 1231936541
+      Mobile - Taiko no Tatsujin - Notes_36: 1496350347
+      Mobile - Taiko no Tatsujin - Notes_37: -757714456
+      Mobile - Taiko no Tatsujin - Notes_38: -1457100644
+      Mobile - Taiko no Tatsujin - Notes_39: -2014983882
+      Mobile - Taiko no Tatsujin - Notes_4: -1151128387
+      Mobile - Taiko no Tatsujin - Notes_40: 1060264556
+      Mobile - Taiko no Tatsujin - Notes_41: 1409731547
+      Mobile - Taiko no Tatsujin - Notes_42: 1365960192
+      Mobile - Taiko no Tatsujin - Notes_43: -626816105
+      Mobile - Taiko no Tatsujin - Notes_44: -917015712
+      Mobile - Taiko no Tatsujin - Notes_45: 1328331689
+      Mobile - Taiko no Tatsujin - Notes_46: 12262593
+      Mobile - Taiko no Tatsujin - Notes_47: 849092590
+      Mobile - Taiko no Tatsujin - Notes_48: 672047981
+      Mobile - Taiko no Tatsujin - Notes_49: -1235940153
+      Mobile - Taiko no Tatsujin - Notes_5: -2112834842
+      Mobile - Taiko no Tatsujin - Notes_50: 689194915
+      Mobile - Taiko no Tatsujin - Notes_51: 298977538
+      Mobile - Taiko no Tatsujin - Notes_52: 1699035085
+      Mobile - Taiko no Tatsujin - Notes_53: -1515886148
+      Mobile - Taiko no Tatsujin - Notes_54: -555261913
+      Mobile - Taiko no Tatsujin - Notes_55: 79572068
+      Mobile - Taiko no Tatsujin - Notes_6: 1198514456
+      Mobile - Taiko no Tatsujin - Notes_7: 1172824381
+      Mobile - Taiko no Tatsujin - Notes_8: -1575096531
+      Mobile - Taiko no Tatsujin - Notes_9: -1054796958
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
