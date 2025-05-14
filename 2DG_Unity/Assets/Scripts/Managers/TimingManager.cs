@@ -33,6 +33,8 @@ public class TimingManager : MonoBehaviour
     EffectManager effectManager;
     ScoreManager scoreManager;
     ComboManager comboManager;
+    StatusManager statusManager;
+
 
 
     private void Start()
@@ -40,6 +42,7 @@ public class TimingManager : MonoBehaviour
         effectManager = FindObjectOfType<EffectManager>();
         scoreManager = FindObjectOfType<ScoreManager>();
         comboManager = FindObjectOfType<ComboManager>();
+        statusManager = FindObjectOfType<StatusManager>();
 
 
 
@@ -89,6 +92,8 @@ public class TimingManager : MonoBehaviour
                     //점수 증가시키고, 판정횟수를 기록
                     scoreManager.IncreaseScore(k);
                     judgementRecord[k]++;
+                    //체력이 증가하는 콤보횟수를 체크
+                    statusManager.CheckHPCombo();
 
                     //맞는 판정을 찾았다면 반복문을 나와라
                     return;
@@ -103,7 +108,13 @@ public class TimingManager : MonoBehaviour
         effectManager.JudgementEffect(4);
         MissRecord();
 
-        Debug.Log("Miss");
+        //미스일경우 체력 감소
+        statusManager.DecreaseHP(1);
+
+
+        //if(!statusManager.IsGameOver())
+
+
 
     }
 
@@ -111,8 +122,16 @@ public class TimingManager : MonoBehaviour
     {
         //미스 판정횟수 기록
         judgementRecord[4]++;
+        //체력회복콤보를 리셋
+        statusManager.ResetHPCombo();
     }
 
+
+    //저장된 판정을 가져옴
+    public int[] GetJudgementRecord()
+    {
+        return judgementRecord;
+    }
 
 
 }

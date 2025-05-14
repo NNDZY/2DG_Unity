@@ -26,11 +26,14 @@ public class NoteManager : MonoBehaviour
     //[SerializeField] GameObject notePrefab = null;
 
 
+    //노트 생성 상태
+    bool noteActive = true;
+
 
     TimingManager timingManager;
     EffectManager effectManager;
     ComboManager comboManager;
-
+    StatusManager statusManager;
 
 
     private void Awake()
@@ -42,7 +45,8 @@ public class NoteManager : MonoBehaviour
     {
         effectManager = FindObjectOfType<EffectManager>();
         comboManager = FindObjectOfType<ComboManager>();
-        
+        statusManager = FindObjectOfType<StatusManager>();
+
     }
 
 
@@ -50,7 +54,10 @@ public class NoteManager : MonoBehaviour
 
     void Update()
     {
-        CreateNotePrefab();
+        if(noteActive)
+        { 
+            CreateNotePrefab();
+        }
 
 
     }
@@ -68,13 +75,6 @@ public class NoteManager : MonoBehaviour
             //노트 객체의 위치값을 설정하고 활성화한다
             t_note.transform.position = appearNote.position;
             t_note.SetActive(true);
-
-
-            //노트프리팹 출현(삭졔)
-            //GameObject note = Instantiate(notePrefab, appearNote.position, Quaternion.identity);
-
-            //노트프리팹의 부모를 플레이존으로 설정(삭제)
-            //note.transform.SetParent(this.transform);
 
             //노트프리팹이 생성되면 리스트에 담는다
             timingManager.createdNoteList.Add(t_note);
@@ -102,6 +102,9 @@ public class NoteManager : MonoBehaviour
                 effectManager.JudgementEffect(4);
                 //콤보 리셋
                 comboManager.Resetcombo();
+                //미스일경우 체력 감소
+                statusManager.DecreaseHP(1);
+              
 
 
             }
@@ -116,6 +119,23 @@ public class NoteManager : MonoBehaviour
         }
 
 
+
+    }
+
+
+
+    //나와있는 모든 노트를 없앨 것
+    public void RemoveNote()
+    {
+        noteActive = false;
+
+        for(int i = 0; i<timingManager.createdNoteList.Count; i++)
+        {
+            //리스트로 만들어두었던 노트를 모두 비활성화
+            timingManager.createdNoteList[i].SetActive(false);
+            //오브젝트풀을 반납해준다
+            ObjectPool.instance.noteQueue.Enqueue(timingManager.createdNoteList[i]);
+        }
 
     }
 

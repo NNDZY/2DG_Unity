@@ -24,13 +24,13 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] int comboBonusScore = 10;
 
 
-    Animator animator;
+    //Animator animator;
     ComboManager comboManager;
 
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
     }
 
 
@@ -70,7 +70,7 @@ public class ScoreManager : MonoBehaviour
 
 
         //점수 애니메이션
-        animator.SetTrigger("ScoreUp");
+        //animator.SetTrigger("ScoreUp");
 
 
     }

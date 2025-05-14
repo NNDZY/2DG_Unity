@@ -1,0 +1,136 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+
+//체력/쉴드..?를 관리하기 위한 스크립트. 일단 입력하고 안맞으면 폐기
+//체력 감소는 타이밍매니저(입력범위가 미스인 경우),노트매니저(노트를 놓쳤을 경우)에서 호출함
+public class StatusManager : MonoBehaviour
+{
+
+    bool isGameOver = false;
+
+    public int maxHP;
+
+    private int currentHP;
+
+    public Image fill;
+
+
+    //콤보가 추가되면 추가됨/체력회복과 비슷하게?
+    int maxShield = 3;
+    int currnetShield = 0;
+
+
+    [SerializeField] GameObject[] hpBar = null;
+    [SerializeField] GameObject[] hpUp = null;
+
+    //몇콤보마다 체력이 회복되는지 설정
+    [SerializeField] int increaseHPCombo;
+    int currentHPCombo = 0;
+
+
+    Result result;
+    NoteManager noteManager;
+
+
+    private void Start()
+    {
+        currentHP = maxHP;
+        fill.fillAmount = 1;
+
+        result = FindObjectOfType<Result>();
+        noteManager = FindObjectOfType<NoteManager>();
+    }
+
+
+
+
+    //데미지?를 받으면 HP가 줄어드는 함수
+    public void DecreaseHP(int p_num)
+    {
+        currentHP -= p_num;
+
+        if(currentHP<=0)
+        {
+            //Debug.Log("게임오버");
+            isGameOver = true;
+            //죽으면 결과창 출력
+            result.ShowResult();
+            //노트를 지움
+            noteManager.RemoveNote();
+        }
+
+        fill.fillAmount = (float)currentHP / maxHP;
+        //SettingHPBar();
+    }
+
+
+    //체력이 줄어드는 것을 보여주는 함수
+    //void SettingHPBar()
+    //{
+    //    for(int i=0; i<hpBar.Length; i++)
+    //    {
+    //        //만약 i번째하트가 현재 체력보다 낮으면 하트를 활성화, 아니면 비활성화 
+    //        if(i<currentHP)
+    //        { 
+    //        hpBar[i].gameObject.SetActive(true);
+    //        }
+    //        else
+    //        {
+    //            hpBar[i].gameObject.SetActive(false);
+    //        }
+
+
+    //    }
+    //}
+
+    //콤보가 쌓이면 체력이 증가하는 함수
+    public void IncreaseHP()
+    {
+        currentHP++;
+
+        if(currentHP>=maxHP)
+        {
+            currentHP = maxHP;
+        }
+    }
+
+    //체력회복 콤보를 체크하는 함수
+    public void CheckHPCombo()
+    {
+        currentHPCombo++;
+
+        //만약 콤보가 체력회복기준을 넘으면
+        if(currentHPCombo>=increaseHPCombo)
+        {
+            //콤보를 0으로 리셋시키고 체력을 올린다
+            currentHPCombo = 0;
+            IncreaseHP();
+        }
+        fill.fillAmount = (float)currentHP / maxHP;
+        //fill.fillAmount = (float)currentHPCombo / increaseHPCombo;
+
+    }
+
+    //중간에 콤보가 끊기면 체력 회복콤보도 리셋되는 함수
+    public void ResetHPCombo()
+    {
+        currentHPCombo = 0;
+        fill.fillAmount = (float)currentHP / maxHP;
+        //fill.fillAmount = (float)currentHPCombo / increaseHPCombo;
+
+    }
+
+
+
+
+
+    public bool IsGameOver()
+    {
+        return isGameOver;
+    }
+
+
+}

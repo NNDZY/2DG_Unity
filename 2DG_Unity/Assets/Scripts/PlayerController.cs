@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 
@@ -19,12 +20,18 @@ public class PlayerController : MonoBehaviour
 
 
     TimingManager timingManager;
+    //StatusManager statusManager;
 
+
+    SceneChanger sceneChanger;
+    Result result;
 
     void Start()
     {
         timingManager = FindObjectOfType<TimingManager>();
-        
+        //statusManager = FindObjectOfType<StatusManager>();
+        sceneChanger = FindObjectOfType<SceneChanger>();
+        result = FindObjectOfType<Result>();
     }
 
 
@@ -34,6 +41,13 @@ public class PlayerController : MonoBehaviour
         {
             timingManager.CheckTiming();
 
+        }
+
+        //결과 확인을 위한 임시코드
+        if(Input.GetKeyDown(KeyCode.H))
+        {
+            //sceneChanger.GotoResultScene();
+            result.ShowResult();
         }
 
         
