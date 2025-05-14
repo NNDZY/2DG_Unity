@@ -37,6 +37,9 @@ public class Result : MonoBehaviour
 
     public void ShowResult()
     {
+        AudioManager.instance.StopBGM();
+
+
         //UI창 활성화
         goUI.SetActive(true);
 
@@ -67,6 +70,13 @@ public class Result : MonoBehaviour
 
     }
 
+
+    public void ButtonMainMenu()
+    {
+        goUI.SetActive(false);
+        GameManager.instance.MainMenu();
+        comboManager.Resetcombo();
+    }
 
 
 

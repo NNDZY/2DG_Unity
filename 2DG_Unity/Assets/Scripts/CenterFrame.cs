@@ -10,17 +10,10 @@ using UnityEngine;
 public class CenterFrame : MonoBehaviour
 {
 
-    AudioSource myAudio;
 
     bool musicStart = false;
 
 
-
-
-    private void Start()
-    {
-        myAudio = GetComponent<AudioSource>();
-    }
 
 
 
@@ -33,7 +26,7 @@ public class CenterFrame : MonoBehaviour
             //노트 태그에 닿으면 오디오를 플레이
             if(collision.CompareTag("Note"))
             {
-                myAudio.Play();
+                AudioManager.instance.PlayBGM("bgm1");
                 musicStart = true;
             }
         }

@@ -18,13 +18,7 @@ public class StatusManager : MonoBehaviour
     public Image fill;
 
 
-    //콤보가 추가되면 추가됨/체력회복과 비슷하게?
-    int maxShield = 3;
-    int currnetShield = 0;
 
-
-    [SerializeField] GameObject[] hpBar = null;
-    [SerializeField] GameObject[] hpUp = null;
 
     //몇콤보마다 체력이 회복되는지 설정
     [SerializeField] int increaseHPCombo;

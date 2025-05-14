@@ -27,13 +27,15 @@ public class NoteManager : MonoBehaviour
 
 
     //노트 생성 상태
-    bool noteActive = true;
+    //(삭제)bool noteActive = true;
 
 
     TimingManager timingManager;
     EffectManager effectManager;
     ComboManager comboManager;
     StatusManager statusManager;
+
+    GameManager gameManager;
 
 
     private void Awake()
@@ -43,6 +45,7 @@ public class NoteManager : MonoBehaviour
 
     private void Start()
     {
+        gameManager = GameManager.instance;
         effectManager = FindObjectOfType<EffectManager>();
         comboManager = FindObjectOfType<ComboManager>();
         statusManager = FindObjectOfType<StatusManager>();
@@ -54,7 +57,7 @@ public class NoteManager : MonoBehaviour
 
     void Update()
     {
-        if(noteActive)
+        if(gameManager.isStartGame)
         { 
             CreateNotePrefab();
         }
@@ -127,7 +130,7 @@ public class NoteManager : MonoBehaviour
     //나와있는 모든 노트를 없앨 것
     public void RemoveNote()
     {
-        noteActive = false;
+        gameManager.isStartGame = false;
 
         for(int i = 0; i<timingManager.createdNoteList.Count; i++)
         {

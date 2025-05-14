@@ -35,10 +35,19 @@ public class TimingManager : MonoBehaviour
     ComboManager comboManager;
     StatusManager statusManager;
 
+    AudioManager audioManager;
+
+
+
+    private void Awake()
+    {
+        
+    }
 
 
     private void Start()
     {
+        audioManager = AudioManager.instance;
         effectManager = FindObjectOfType<EffectManager>();
         scoreManager = FindObjectOfType<ScoreManager>();
         comboManager = FindObjectOfType<ComboManager>();
@@ -94,6 +103,9 @@ public class TimingManager : MonoBehaviour
                     judgementRecord[k]++;
                     //체력이 증가하는 콤보횟수를 체크
                     statusManager.CheckHPCombo();
+
+                    //입력시 효과음재생
+                    audioManager.PlaySFX("Choice");
 
                     //맞는 판정을 찾았다면 반복문을 나와라
                     return;
