@@ -8,11 +8,15 @@ using UnityEngine;
  배열 사용
  
  */
+//UI-노트에 스크립트를 넣어준다
 
 public class TimingManager : MonoBehaviour
 {
     //생성된 노트프리팹의 리스트
     public List<GameObject> createdNoteList = new List<GameObject>();
+
+    //판정이 몇개였는지 담을 배열 작성
+    int[] judgementRecord = new int[5];
 
 
     //판정의 중심점을 지정
@@ -27,11 +31,15 @@ public class TimingManager : MonoBehaviour
 
 
     EffectManager effectManager;
+    ScoreManager scoreManager;
+    ComboManager comboManager;
 
 
     private void Start()
     {
         effectManager = FindObjectOfType<EffectManager>();
+        scoreManager = FindObjectOfType<ScoreManager>();
+        comboManager = FindObjectOfType<ComboManager>();
 
 
 
@@ -42,7 +50,8 @@ public class TimingManager : MonoBehaviour
         for(int i=0; i<timingRect.Length; i++)
         {
             //Set(x,y) : 판정위치의 중심에서 판정범위의 절반만큼 얖옆으로 이동한 범위를 나타냄(=판정범위만큼의 범위가 된다)
-            timingPositions[i].Set(correctTiming.localPosition.x - timingRect[i].rect.width / 2, correctTiming.localPosition.x + timingRect[i].rect.width / 2);
+            timingPositions[i].Set(correctTiming.localPosition.x - timingRect[i].rect.width / 2,
+                                   correctTiming.localPosition.x + timingRect[i].rect.width / 2);
         }
 
     }
@@ -66,6 +75,7 @@ public class TimingManager : MonoBehaviour
                 {
                     //노트를 숨기고, 리스트에서 지우기
                     createdNoteList[j].GetComponent<Note>().HideNote();
+                    createdNoteList.RemoveAt(j);
 
 
                     //판정이 퍼펙, 그레잍,굿일때만 이펙트 호출
@@ -76,11 +86,11 @@ public class TimingManager : MonoBehaviour
                         //판정이펙트
                         effectManager.JudgementEffect(k);
                     }
+                    //점수 증가시키고, 판정횟수를 기록
+                    scoreManager.IncreaseScore(k);
+                    judgementRecord[k]++;
 
-                    createdNoteList.RemoveAt(j);
-
-
-                    Debug.Log("판정 :" + k);
+                    //맞는 판정을 찾았다면 반복문을 나와라
                     return;
                 }
 
@@ -88,9 +98,21 @@ public class TimingManager : MonoBehaviour
             }
 
         }
-        Debug.Log("Miss");
-        //미스이펙트호출
+        //타이밍이 아예 안맞으면 콤보 리셋. 미스이펙트 호출, 미스 판정횟수 기록
+        comboManager.Resetcombo();
         effectManager.JudgementEffect(4);
+        MissRecord();
+
+        Debug.Log("Miss");
 
     }
+
+    public void MissRecord()
+    {
+        //미스 판정횟수 기록
+        judgementRecord[4]++;
+    }
+
+
+
 }

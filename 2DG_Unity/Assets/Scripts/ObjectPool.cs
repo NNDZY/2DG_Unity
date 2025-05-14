@@ -36,11 +36,11 @@ public class ObjectPool : MonoBehaviour
     {
 
         instance = this;
+
+        //풀링할 오브젝트를 더 추가할 수 있음 0,1,2...
         noteQueue = InsertQueue(objectInfo[0]);
+        //noteQueue = InsertQueue(objectInfo[1]);
 
-
-
-        
     }
 
 
@@ -68,15 +68,7 @@ public class ObjectPool : MonoBehaviour
             }
             //count만큼의 객체를 생성함
             t_queue.Enqueue(t_clone);
-
         }
         return t_queue;
-
-
     }
-
-
-
-
-
 }

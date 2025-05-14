@@ -14,6 +14,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    //게임이 종료될때 플레이어 키 입력 방지
+    public static bool s_canPressKey = true;
+
+
     TimingManager timingManager;
 
 

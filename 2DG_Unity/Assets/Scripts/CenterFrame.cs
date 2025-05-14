@@ -36,16 +36,8 @@ public class CenterFrame : MonoBehaviour
                 myAudio.Play();
                 musicStart = true;
             }
-
-
         }
 
-
-
-
     }
-
-
-
 
 }
