@@ -39,6 +39,16 @@ public class StatusManager : MonoBehaviour
     }
 
 
+    //재시작시 기록을 초기화
+    public void Initialized()
+    {
+        currentHP = maxHP;
+        fill.fillAmount = 1;
+
+        isGameOver = false;
+    }
+
+
 
 
     //데미지?를 받으면 HP가 줄어드는 함수

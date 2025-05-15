@@ -146,4 +146,17 @@ public class TimingManager : MonoBehaviour
     }
 
 
+
+    //재시작시 판정기록 초기화
+    public void Initialized()
+    {
+        for(int i=0; i<judgementRecord.Length; i++)
+        {
+            judgementRecord[i] = 0;
+        }
+
+
+    }
+
+
 }

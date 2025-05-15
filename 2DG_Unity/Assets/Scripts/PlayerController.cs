@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
 
     SceneChanger sceneChanger;
     Result result;
-    GameManager gameManager;
 
 
     void Start()
@@ -34,27 +33,19 @@ public class PlayerController : MonoBehaviour
         //statusManager = FindObjectOfType<StatusManager>();
         sceneChanger = FindObjectOfType<SceneChanger>();
         result = FindObjectOfType<Result>();
-        gameManager = GameManager.instance;
     }
 
 
     void Update()
     {
 
-        if(gameManager.isStartGame)
+        if(GameManager.instance.isStartGame)
         {
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
             timingManager.CheckTiming();
 
-        }
-
-        //결과 확인을 위한 임시코드
-        if(Input.GetKeyDown(KeyCode.H))
-        {
-            //sceneChanger.GotoResultScene();
-            result.ShowResult();
         }
 
 

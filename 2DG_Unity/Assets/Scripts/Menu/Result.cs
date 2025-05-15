@@ -13,7 +13,8 @@ public class Result : MonoBehaviour
     //결과창에 들어갈 수치 입력(판정, 점수, 콤보)
 
     //ui에 접근
-    [SerializeField] GameObject goUI = null;
+    //[SerializeField] GameObject goUI = null;
+    public GameObject goUI = null;
 
     //판정
     [SerializeField] TMP_Text[] txtCount = null;
@@ -37,6 +38,9 @@ public class Result : MonoBehaviour
 
     public void ShowResult()
     {
+        //결과창이 나오면 플레이음악을 멈춘다 
+        FindObjectOfType<CenterFrame>().ResetMusic();
+
         AudioManager.instance.StopBGM();
 
 

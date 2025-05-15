@@ -14,6 +14,11 @@ public class CenterFrame : MonoBehaviour
     bool musicStart = false;
 
 
+    public void ResetMusic()
+    {
+        musicStart = false;
+    }
+
 
 
 

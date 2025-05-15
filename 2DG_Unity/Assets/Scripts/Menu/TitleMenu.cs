@@ -20,17 +20,4 @@ public class TitleMenu : MonoBehaviour
 
     }
 
-
-    void Start()
-    {
-        
-    }
-
-
-
-
-    void Update()
-    {
-        
-    }
 }

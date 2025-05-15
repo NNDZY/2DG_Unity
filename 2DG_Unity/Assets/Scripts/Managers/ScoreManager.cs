@@ -44,6 +44,17 @@ public class ScoreManager : MonoBehaviour
     }
 
 
+    //새 게임을 시작하면 초기화하기
+    public void Initialized()
+    {
+        currentScore = 0;
+        txtScore.text = "0";
+
+    }
+
+
+
+
     //점수가 증가하는 함수(콤보, 판정 가중치 반영)
     public void IncreaseScore(int p_judgementState)
     {

@@ -35,7 +35,6 @@ public class NoteManager : MonoBehaviour
     ComboManager comboManager;
     StatusManager statusManager;
 
-    GameManager gameManager;
 
 
     private void Awake()
@@ -45,7 +44,6 @@ public class NoteManager : MonoBehaviour
 
     private void Start()
     {
-        gameManager = GameManager.instance;
         effectManager = FindObjectOfType<EffectManager>();
         comboManager = FindObjectOfType<ComboManager>();
         statusManager = FindObjectOfType<StatusManager>();
@@ -57,7 +55,7 @@ public class NoteManager : MonoBehaviour
 
     void Update()
     {
-        if(gameManager.isStartGame)
+        if(GameManager.instance.isStartGame)
         { 
             CreateNotePrefab();
         }
@@ -130,15 +128,21 @@ public class NoteManager : MonoBehaviour
     //나와있는 모든 노트를 없앨 것
     public void RemoveNote()
     {
-        gameManager.isStartGame = false;
+        GameManager.instance.isStartGame = false;
 
         for(int i = 0; i<timingManager.createdNoteList.Count; i++)
         {
+            
             //리스트로 만들어두었던 노트를 모두 비활성화
             timingManager.createdNoteList[i].SetActive(false);
             //오브젝트풀을 반납해준다
             ObjectPool.instance.noteQueue.Enqueue(timingManager.createdNoteList[i]);
+
         }
+
+        //게임이 끝나면 박스리스트를 초기화해야함
+        timingManager.createdNoteList.Clear();
+
 
     }
 
