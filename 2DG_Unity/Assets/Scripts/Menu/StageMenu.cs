@@ -36,20 +36,59 @@ public class StageMenu : MonoBehaviour
     int currentSong = 0;
 
 
+    void Start()
+    {
+        SettingSong();
+    }
+
+
+
+    //버튼을 누르면 다음노래로 이동/끝이면 처음으로 이동
+    public void ButtonNext()
+    {
+        //클릭할때마다 효과음재생
+        AudioManager.instance.PlaySFX("Switch");
+
+        if (++currentSong>songList.Length-1)
+        {
+            currentSong = 0;
+        }
+        //노래를 바꿀때마다 곡 정보 호출
+        SettingSong();
+    }
+
+
+
+    //처음이면 끝으로 이동(위와 반대)
+    public void ButtonPrior()
+    {
+        //클릭할때마다 효과음재생
+        AudioManager.instance.PlaySFX("Switch");
+        if (--currentSong<0)
+        {
+            currentSong = songList.Length - 1;
+        }
+        //노래를 바꿀때마다 곡 정보 호출
+        SettingSong();
+    }
 
     
 
 
-
-
-
-
-    Result result;
-
-    private void Start()
+    //현재 곡에대한 정보를 반영하는 함수
+    public void SettingSong()
     {
-        result = FindObjectOfType<Result>();
+        txtSongName.text = songList[currentSong].name;
+        txtSongComposer.text = songList[currentSong].composer;
+        imgDisk.sprite = songList[currentSong].sprite;
+
+        AudioManager.instance.PlayBGM("BGM" + currentSong);
+
     }
+
+
+
+
 
 
 
@@ -58,7 +97,6 @@ public class StageMenu : MonoBehaviour
     {
         titleMenu.SetActive(true);
         this.gameObject.SetActive(false);
-        result.goUI.SetActive(false);
     }
 
 
@@ -66,10 +104,13 @@ public class StageMenu : MonoBehaviour
 
     public void ButtonPlay()
     {
+
+        int t_bpm = songList[currentSong].bpm;
+
+
         //플레이버튼을 누르면 게임이 시작되고, 스테이지메뉴를 비활성화함
+        GameManager.instance.GameStart(currentSong, t_bpm);
         this.gameObject.SetActive(false);
-        result.goUI.SetActive(false);
-        GameManager.instance.GameStart();
     }
 
 }

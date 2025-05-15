@@ -72,9 +72,13 @@ public class TimingManager : MonoBehaviour
     //노트가 최소~최대값 사이에 있다면 해당 판정을 출력해라. 아예 벗어났다면 미스를 출력
     public void CheckTiming()
     {
+        
         //노트리스트를 돌면서
-        for(int j=0; j<createdNoteList.Count; j++)
+        for (int j=0; j<createdNoteList.Count; j++)
         {
+            //null체크
+            if (createdNoteList[j] == null) continue;
+
             //생성된노트의 위치변수
             float notePosX = createdNoteList[j].transform.localPosition.x;
 
@@ -122,10 +126,6 @@ public class TimingManager : MonoBehaviour
 
         //미스일경우 체력 감소
         statusManager.DecreaseHP(1);
-
-
-        //if(!statusManager.IsGameOver())
-
 
 
     }

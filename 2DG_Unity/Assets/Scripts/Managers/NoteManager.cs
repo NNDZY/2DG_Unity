@@ -14,7 +14,7 @@ using UnityEngine;
 public class NoteManager : MonoBehaviour
 {
     //bpm변수만들기
-    public int bpm;
+    public int bpm =0;
 
     //노트 생성을 위한 시간 체크용 변수. 정확한 수치를 위해 double 사용
     double currentTime = 0d;
@@ -22,12 +22,10 @@ public class NoteManager : MonoBehaviour
     //노트가 생성될 위치 변수
     [SerializeField] Transform appearNote = null;
 
-    //노트프리팹을 담을 곳(삭제)
-    //[SerializeField] GameObject notePrefab = null;
 
 
     //노트 생성 상태
-    //(삭제)bool noteActive = true;
+    bool noteActive = true;
 
 
     TimingManager timingManager;
@@ -92,8 +90,11 @@ public class NoteManager : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        //노트가 활성화되지않았다면 무시
+        if (!noteActive) return;
+
         //노트가 다 지나가면 노트를 파괴해라
-        if(collision.CompareTag("Note"))
+        if (collision.CompareTag("Note"))
         {
             //노트가 활성화되어 있을때만 miss를 출력
             if(collision.GetComponent<Note>().GetNoteFlag())
@@ -109,14 +110,18 @@ public class NoteManager : MonoBehaviour
 
 
             }
+            //노트가 리스트에 존재하고 있다면
+            if(timingManager.createdNoteList.Contains(collision.gameObject))
+            {
             //파괴하기전 리스트에서 삭제
             timingManager.createdNoteList.Remove(collision.gameObject);
+            }
+
 
             //충돌한 객체를 Enqueue를 이용해 반납하고 비활성화함
             ObjectPool.instance.noteQueue.Enqueue(collision.gameObject);
             collision.gameObject.SetActive(false);
 
-            //(삭제)Destroy(collision.gameObject);
         }
 
 
@@ -128,6 +133,8 @@ public class NoteManager : MonoBehaviour
     //나와있는 모든 노트를 없앨 것
     public void RemoveNote()
     {
+        noteActive = false;
+
         GameManager.instance.isStartGame = false;
 
         for(int i = 0; i<timingManager.createdNoteList.Count; i++)
@@ -143,6 +150,7 @@ public class NoteManager : MonoBehaviour
         //게임이 끝나면 박스리스트를 초기화해야함
         timingManager.createdNoteList.Clear();
 
+        noteActive = true;
 
     }
 

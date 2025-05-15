@@ -20,7 +20,6 @@ public class PlayerController : MonoBehaviour
 
 
     TimingManager timingManager;
-    //StatusManager statusManager;
 
 
     SceneChanger sceneChanger;
@@ -30,7 +29,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         timingManager = FindObjectOfType<TimingManager>();
-        //statusManager = FindObjectOfType<StatusManager>();
         sceneChanger = FindObjectOfType<SceneChanger>();
         result = FindObjectOfType<Result>();
     }

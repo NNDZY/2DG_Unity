@@ -14,6 +14,9 @@ public class CenterFrame : MonoBehaviour
     bool musicStart = false;
 
 
+    public string bgmName = "";
+
+
     public void ResetMusic()
     {
         musicStart = false;
@@ -31,7 +34,7 @@ public class CenterFrame : MonoBehaviour
             //노트 태그에 닿으면 오디오를 플레이
             if(collision.CompareTag("Note"))
             {
-                AudioManager.instance.PlayBGM("bgm1");
+                AudioManager.instance.PlayBGM(bgmName);
                 musicStart = true;
             }
         }
