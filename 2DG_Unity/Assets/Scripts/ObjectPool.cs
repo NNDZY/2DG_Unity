@@ -28,7 +28,9 @@ public class ObjectPool : MonoBehaviour
 
 
     //Queue : 선입선출 자료형. 풀링에 사용할 오브젝트 선언
-    public Queue<GameObject> noteQueue = new Queue<GameObject>();
+    public Queue<GameObject> noteQueueR = new Queue<GameObject>();
+    public Queue<GameObject> noteQueueB = new Queue<GameObject>();
+    public Queue<GameObject> noteQueueY = new Queue<GameObject>();
 
 
 
@@ -38,8 +40,9 @@ public class ObjectPool : MonoBehaviour
         instance = this;
 
         //풀링할 오브젝트를 더 추가할 수 있음 0,1,2...
-        noteQueue = InsertQueue(objectInfo[0]);
-        //noteQueue = InsertQueue(objectInfo[1]);
+        noteQueueR = InsertQueue(objectInfo[0]);
+        noteQueueB = InsertQueue(objectInfo[1]);
+        noteQueueY = InsertQueue(objectInfo[2]);
 
     }
 

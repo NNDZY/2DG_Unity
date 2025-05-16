@@ -8,7 +8,7 @@ using UnityEngine;
  배열 사용
  
  */
-//UI-노트에 스크립트를 넣어준다
+//UI-플레이존에 스크립트를 넣어준다
 
 public class TimingManager : MonoBehaviour
 {
@@ -38,11 +38,6 @@ public class TimingManager : MonoBehaviour
     AudioManager audioManager;
 
 
-
-    private void Awake()
-    {
-        
-    }
 
 
     private void Start()

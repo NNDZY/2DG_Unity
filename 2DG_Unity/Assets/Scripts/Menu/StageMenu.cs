@@ -82,7 +82,7 @@ public class StageMenu : MonoBehaviour
         txtSongComposer.text = songList[currentSong].composer;
         imgDisk.sprite = songList[currentSong].sprite;
 
-        AudioManager.instance.PlayBGM("BGM" + currentSong);
+        AudioManager.instance.PlayBGM("BGM" + (currentSong+1));
 
     }
 
@@ -92,11 +92,12 @@ public class StageMenu : MonoBehaviour
 
 
 
-    //타이틀메뉴 활성화, 스테이지메뉴 비활성화, 결과 비활성화
+    //타이틀메뉴 활성화, 스테이지메뉴 비활성화
     public void ButtonBack()
     {
         titleMenu.SetActive(true);
         this.gameObject.SetActive(false);
+        AudioManager.instance.StopBGM();
     }
 
 
@@ -111,6 +112,9 @@ public class StageMenu : MonoBehaviour
         //플레이버튼을 누르면 게임이 시작되고, 스테이지메뉴를 비활성화함
         GameManager.instance.GameStart(currentSong, t_bpm);
         this.gameObject.SetActive(false);
+
+        SettingSong();
+
     }
 
 }

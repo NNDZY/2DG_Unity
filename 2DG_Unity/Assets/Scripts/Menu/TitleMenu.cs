@@ -8,13 +8,27 @@ public class TitleMenu : MonoBehaviour
 {
 
 
+
     [SerializeField] GameObject goStageUI = null;
 
-    public void ButtonPlay()
+
+    StageMenu stageMenu;
+
+    private void Awake()
+    {
+        stageMenu = FindObjectOfType<StageMenu>();
+    }
+
+    public void ButtonStart()
     {
         //타이틀의 플레이버튼을 누르면, 스테이지메뉴가 활성화하고 타이틀은 비활성화된다
         goStageUI.SetActive(true);
         this.gameObject.SetActive(false);
+        AudioManager.instance.PlaySFX("Choice");
+        AudioManager.instance.StopBGM();
+        //stageMenu.SettingSong(); /null
+
+
 
 
 

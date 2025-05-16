@@ -67,28 +67,7 @@ public class StatusManager : MonoBehaviour
         }
 
         fill.fillAmount = (float)currentHP / maxHP;
-        //SettingHPBar();
     }
-
-
-    //체력이 줄어드는 것을 보여주는 함수
-    //void SettingHPBar()
-    //{
-    //    for(int i=0; i<hpBar.Length; i++)
-    //    {
-    //        //만약 i번째하트가 현재 체력보다 낮으면 하트를 활성화, 아니면 비활성화 
-    //        if(i<currentHP)
-    //        { 
-    //        hpBar[i].gameObject.SetActive(true);
-    //        }
-    //        else
-    //        {
-    //            hpBar[i].gameObject.SetActive(false);
-    //        }
-
-
-    //    }
-    //}
 
     //콤보가 쌓이면 체력이 증가하는 함수
     public void IncreaseHP()
@@ -114,7 +93,6 @@ public class StatusManager : MonoBehaviour
             IncreaseHP();
         }
         fill.fillAmount = (float)currentHP / maxHP;
-        //fill.fillAmount = (float)currentHPCombo / increaseHPCombo;
 
     }
 
@@ -123,18 +101,10 @@ public class StatusManager : MonoBehaviour
     {
         currentHPCombo = 0;
         fill.fillAmount = (float)currentHP / maxHP;
-        //fill.fillAmount = (float)currentHPCombo / increaseHPCombo;
 
     }
-
-
-
-
-
     public bool IsGameOver()
     {
         return isGameOver;
     }
-
-
 }
