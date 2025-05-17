@@ -10,6 +10,9 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
 
+    public static ScoreManager instance;
+
+
     [SerializeField] TMP_Text txtScore = null;
 
     //점수를 얼마나 증가시킬지 변수 설정
@@ -24,13 +27,17 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] int comboBonusScore = 10;
 
 
-    //Animator animator;
     ComboManager comboManager;
 
-
-    private void Awake()
+    void Awake()
     {
-        //animator = GetComponent<Animator>();
+        if (instance != null)
+        {
+            Destroy(gameObject);  // 중복 방지
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);  // 씬 넘어가도 유지
+
     }
 
 
@@ -57,10 +64,8 @@ public class ScoreManager : MonoBehaviour
 
     //점수가 증가하는 함수(콤보, 판정 가중치 반영)
     public void IncreaseScore(int p_judgementState)
-    {
-        //콤보 증가
-        comboManager.IncreaseCombo();
-
+    {        
+        comboManager.IncreaseCombo();   //콤보 증가
 
         //콤보 보너스점수계산
 
@@ -68,9 +73,9 @@ public class ScoreManager : MonoBehaviour
         int t_currentCombo = comboManager.GetCurrentCombo();
         //콤보시 점수를 가중시키는 변수 설정(콤보가 10씩 오를때마다, 10의자리수 *보너스스코어(10)만큼 점수 플러스)
         int t_bonusComboScore = (t_currentCombo / 10) * comboBonusScore;
-        int t_increaseScore = increaseScore + t_bonusComboScore;
 
         //판정 가중치 계산(weight)
+        int t_increaseScore = increaseScore + t_bonusComboScore;
         t_increaseScore = (int)(t_increaseScore * weight[p_judgementState]);
 
 

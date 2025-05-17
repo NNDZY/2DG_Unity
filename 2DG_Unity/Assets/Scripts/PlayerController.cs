@@ -14,9 +14,12 @@ using UnityEngine.SceneManagement;
  */
 public class PlayerController : MonoBehaviour
 {
+    
+
+
 
     //게임이 종료될때 플레이어 키 입력 방지
-    //public static bool s_canPressKey = true;
+    public static bool s_canPressKey = true;
 
 
     TimingManager timingManager;
@@ -39,17 +42,29 @@ public class PlayerController : MonoBehaviour
 
         if(GameManager.instance.isStartGame)
         {
+            //A,D,스페이스바 압력으로 나눠줘야함
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                if(s_canPressKey)
+                {
 
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            timingManager.CheckTiming();
+                    timingManager.CheckTiming();
+                }
+            
+                
+
+            }
+
 
         }
 
 
-        }
+        //만약 A키를 눌렀을때 그 노트가 R이라면
+        //if (Input.GetKeyDown(KeyCode.A) &&ObjectPool.instance.noteQueueR)
+        //{
+        //    timingManager.CheckTiming();
+        //}
 
-        
     }
 
 

@@ -5,6 +5,7 @@ using UnityEngine;
 //빈 오브젝트(게임매니저)에 스크립트 삽입
 public class GameManager : MonoBehaviour
 {
+    //게임플레이시 활성화시킬UI를 배열로만든다
     [SerializeField] GameObject[] goGameUI = null;
     [SerializeField] GameObject goTitleUI = null;
 
@@ -18,7 +19,6 @@ public class GameManager : MonoBehaviour
 
 
     ComboManager combomanager;
-    ScoreManager scoreManager;
     TimingManager timingManager;
     StatusManager statusManager;
     PlayerController playerController;
@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
 
         noteManager = FindObjectOfType<NoteManager>();
         combomanager = FindObjectOfType<ComboManager>();
-        scoreManager = FindObjectOfType<ScoreManager>();
         timingManager = FindObjectOfType<TimingManager>();
         statusManager = FindObjectOfType<StatusManager>();
     }
@@ -54,9 +53,9 @@ public class GameManager : MonoBehaviour
 
         noteManager.bpm = p_bpm;
         combomanager.Resetcombo();
-        scoreManager.Initialized();
         timingManager.Initialized();
         statusManager.Initialized();
+        ScoreManager.instance.Initialized();
 
         AudioManager.instance.StopBGM();
 

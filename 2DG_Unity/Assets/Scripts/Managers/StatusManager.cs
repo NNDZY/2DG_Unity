@@ -52,18 +52,17 @@ public class StatusManager : MonoBehaviour
 
 
     //데미지?를 받으면 HP가 줄어드는 함수
-    public void DecreaseHP(int p_num)
+    public void DecreaseHP(int inputNum)
     {
-        currentHP -= p_num;
+        currentHP -= inputNum;
 
         if(currentHP<=0)
         {
             //Debug.Log("게임오버");
             isGameOver = true;
-            //죽으면 결과창 출력
-            result.ShowResult();
-            //노트를 지움
-            noteManager.RemoveNote();
+      
+            result.ShowResult();          //죽으면 결과창 출력
+            noteManager.RemoveNote();     //노트를 지움
         }
 
         fill.fillAmount = (float)currentHP / maxHP;
@@ -101,7 +100,6 @@ public class StatusManager : MonoBehaviour
     {
         currentHPCombo = 0;
         fill.fillAmount = (float)currentHP / maxHP;
-
     }
     public bool IsGameOver()
     {

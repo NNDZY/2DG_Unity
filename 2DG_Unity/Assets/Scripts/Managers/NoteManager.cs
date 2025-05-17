@@ -21,9 +21,10 @@ public class NoteManager : MonoBehaviour
     double currentTime = 0d;
 
     //노트가 생성될 위치 변수
-    [SerializeField] Transform appearNoteR = null;
-    [SerializeField] Transform appearNoteB = null;
-    [SerializeField] Transform appearNoteY = null;
+    [SerializeField] Transform appearNote = null;
+    //[SerializeField] Transform appearNoteR = null;
+    //[SerializeField] Transform appearNoteB = null;
+    //[SerializeField] Transform appearNoteY = null;
 
 
 
@@ -32,9 +33,6 @@ public class NoteManager : MonoBehaviour
 
 
     TimingManager timingManager;
-    EffectManager effectManager;
-    ComboManager comboManager;
-    StatusManager statusManager;
 
 
 
@@ -45,9 +43,6 @@ public class NoteManager : MonoBehaviour
 
     private void Start()
     {
-        effectManager = FindObjectOfType<EffectManager>();
-        comboManager = FindObjectOfType<ComboManager>();
-        statusManager = FindObjectOfType<StatusManager>();
 
     }
 
@@ -57,10 +52,14 @@ public class NoteManager : MonoBehaviour
     void Update()
     {
         if(GameManager.instance.isStartGame)
-        { 
-            CreateNotePrefabR();
-            CreateNotePrefabB();
-            CreateNotePrefabY();
+        {
+           
+           
+                CreateNotePrefabR();
+                CreateNotePrefabB();
+                CreateNotePrefabY();
+
+          
         }
 
 
@@ -93,6 +92,8 @@ public class NoteManager : MonoBehaviour
 
     private void CreateNotePrefabR()
     {
+        
+
         currentTime += Time.deltaTime;
 
         if(currentTime >= 60d/bpm)
@@ -101,7 +102,7 @@ public class NoteManager : MonoBehaviour
             GameObject t_note = ObjectPool.instance.noteQueueR.Dequeue();
 
             //노트 객체의 위치값을 설정하고 활성화한다
-            t_note.transform.position = appearNoteR.position;
+            t_note.transform.position = appearNote.position;
             t_note.SetActive(true);
 
             //노트프리팹이 생성되면 리스트에 담는다
@@ -110,7 +111,7 @@ public class NoteManager : MonoBehaviour
             //ct에 델타타임을 더해주면서 조금 약간의 오차가 생김->누적되면서 노트생성시간에 차이가 생김. 다음 노트는 오차만큼 더 빨리 나오는 식으로 조정하는 것
             currentTime -= 60d / bpm;
         }
-
+         
 
 
     }
@@ -125,7 +126,7 @@ public class NoteManager : MonoBehaviour
             GameObject t_note = ObjectPool.instance.noteQueueB.Dequeue();
 
             //노트 객체의 위치값을 설정하고 활성화한다
-            t_note.transform.position = appearNoteB.position;
+            t_note.transform.position = appearNote.position;
             t_note.SetActive(true);
 
             //노트프리팹이 생성되면 리스트에 담는다
@@ -149,7 +150,7 @@ public class NoteManager : MonoBehaviour
             GameObject t_note = ObjectPool.instance.noteQueueY.Dequeue();
 
             //노트 객체의 위치값을 설정하고 활성화한다
-            t_note.transform.position = appearNoteY.position;
+            t_note.transform.position = appearNote.position;
             t_note.SetActive(true);
 
             //노트프리팹이 생성되면 리스트에 담는다
@@ -164,27 +165,19 @@ public class NoteManager : MonoBehaviour
     }
 
 
-
+    //노트의 컬라이더구간을 벗어나면 미스가 나게함
     private void OnTriggerExit2D(Collider2D collision)
     {
         //노트가 활성화되지않았다면 무시
         if (!noteActive) return;
 
-        //노트가 다 지나가면 노트를 파괴해라
+        //노트가 다 지나가면 노트를 없애야함
         if (collision.CompareTag("Note"))
         {
             //노트가 활성화되어 있을때만 miss를 출력
             if(collision.GetComponent<Note>().GetNoteFlag())
             {
-                timingManager.MissRecord();
-                //노트가 구간을 빠져나가면 4(miss)출력
-                effectManager.JudgementEffect(4);
-                //콤보 리셋
-                comboManager.Resetcombo();
-                //미스일경우 체력 감소
-                statusManager.DecreaseHP(1);
-              
-
+                timingManager.MissRecord();                
 
             }
             //노트가 리스트에 존재하고 있다면
@@ -212,7 +205,6 @@ public class NoteManager : MonoBehaviour
     //나와있는 모든 노트를 없앨 것
     public void RemoveNote()
     {
-        noteActive = false;
 
         GameManager.instance.isStartGame = false;
 
@@ -228,10 +220,9 @@ public class NoteManager : MonoBehaviour
 
         }
 
-        //게임이 끝나면 박스리스트를 초기화해야함
+        //게임이 끝나면 리스트를 초기화해야함
         timingManager.createdNoteList.Clear();
 
-        noteActive = true;
 
     }
 

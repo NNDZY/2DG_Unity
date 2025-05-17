@@ -20,7 +20,6 @@ public class Note : MonoBehaviour
         if(noteImage==null)
         {
         noteImage = GetComponent<Image>();
-
         }
         noteImage.enabled = true;
     }

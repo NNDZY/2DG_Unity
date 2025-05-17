@@ -24,13 +24,19 @@ public class Result : MonoBehaviour
     [SerializeField] TMP_Text txtMaxCombo = null;
 
 
-    ScoreManager scoreManager;
     ComboManager comboManager;
     TimingManager timingManager;
+    SceneChanger scenechanger;
+
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        scenechanger = FindObjectOfType<SceneChanger>();
+    }
 
     private void Start()
     {
-        scoreManager = FindObjectOfType<ScoreManager>();
         comboManager = FindObjectOfType<ComboManager>();
         timingManager = FindObjectOfType<TimingManager>();
     }
@@ -38,6 +44,9 @@ public class Result : MonoBehaviour
 
     public void ShowResult()
     {
+
+        scenechanger.GotoResultScene();
+
         //결과창이 나오면 플레이음악을 멈춘다 
         FindObjectOfType<CenterFrame>().ResetMusic();
 
@@ -59,7 +68,7 @@ public class Result : MonoBehaviour
 
         //결과창에 기록될 숫자
         int[] t_judgement = timingManager.GetJudgementRecord(); //판정
-        int t_currentScore = scoreManager.GetCurrentScore();    //스코어
+        int t_currentScore = ScoreManager.instance.GetCurrentScore();    //스코어
         int t_maxCombo = comboManager.GetMaxCombo();    //최대콤보
 
 

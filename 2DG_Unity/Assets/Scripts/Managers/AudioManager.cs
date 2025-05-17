@@ -21,8 +21,6 @@ public class Sound
 public class AudioManager : MonoBehaviour
 {
 
-    //어디서든 호출 가능하도록 인스턴스로 만들어준다
-    public static AudioManager instance;
 
 
 
@@ -34,11 +32,20 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource[] sfxPlayer = null;
 
 
-    void Start()
-    {
-        instance = this;
-    }
 
+    //어디서든 호출 가능하도록 인스턴스로 만들어준다
+    public static AudioManager instance;
+
+    void Awake()
+    {
+        if (instance != null)
+        {
+            Destroy(gameObject);  // 중복 방지
+        }
+            instance = this;
+            DontDestroyOnLoad(gameObject);  // 씬 넘어가도 유지
+     
+    }
 
     //배경음 재생함수
     public void PlayBGM(string p_bgmName)
@@ -70,14 +77,14 @@ public class AudioManager : MonoBehaviour
             if(p_sfxName == sfx[i].name)
             {
                
-                for(int x=0; x<sfxPlayer.Length; i++)
+                for(int x=0; x<sfxPlayer.Length; x++)
                 {
 
                     //노래가 재생중이 아니라면
                     if (!sfxPlayer[x].isPlaying)
                     {
                         //x번째의 효과음으로 대체하고 재생
-                        sfxPlayer[x].clip = sfx[x].clip;
+                        sfxPlayer[x].clip = sfx[i].clip;
                         sfxPlayer[x].Play();
                         return;
                     }

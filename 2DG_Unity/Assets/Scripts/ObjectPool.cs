@@ -12,7 +12,7 @@ public class ObjectInfo
 
     //풀링할 프리팹의 개수
     public int count;
-
+    //프리팹의 부모
     public Transform itPoolParent;
 }
 

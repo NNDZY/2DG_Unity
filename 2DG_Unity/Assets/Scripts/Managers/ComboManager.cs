@@ -40,12 +40,9 @@ public class ComboManager : MonoBehaviour
         {
         txtCombo.text = $"{currentCombo}";
         }
-        
-
-        //현재 콤보가 최대콤보를 넘으면
+        //현재 콤보가 최대콤보를 넘으면 현재 콤보가 최대콤보가 된다
         if (maxCombo < currentCombo)
         {
-            //현재 콤보가 최대콤보가 된다
             maxCombo = currentCombo;
         }
 

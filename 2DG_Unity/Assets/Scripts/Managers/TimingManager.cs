@@ -14,6 +14,9 @@ public class TimingManager : MonoBehaviour
 {
     //생성된 노트프리팹의 리스트
     public List<GameObject> createdNoteList = new List<GameObject>();
+    //public List<GameObject> createdNoteListR = new List<GameObject>();
+    //public List<GameObject> createdNoteListB = new List<GameObject>();
+    //public List<GameObject> createdNoteListY = new List<GameObject>();
 
     //판정이 몇개였는지 담을 배열 작성
     int[] judgementRecord = new int[5];
@@ -31,10 +34,8 @@ public class TimingManager : MonoBehaviour
 
 
     EffectManager effectManager;
-    ScoreManager scoreManager;
     ComboManager comboManager;
     StatusManager statusManager;
-
     AudioManager audioManager;
 
 
@@ -44,7 +45,6 @@ public class TimingManager : MonoBehaviour
     {
         audioManager = AudioManager.instance;
         effectManager = FindObjectOfType<EffectManager>();
-        scoreManager = FindObjectOfType<ScoreManager>();
         comboManager = FindObjectOfType<ComboManager>();
         statusManager = FindObjectOfType<StatusManager>();
 
@@ -65,7 +65,7 @@ public class TimingManager : MonoBehaviour
 
     //생성된 노트리스트를 돌면서, 판정위치의 개수만큼 노트의 위치를 판정하고
     //노트가 최소~최대값 사이에 있다면 해당 판정을 출력해라. 아예 벗어났다면 미스를 출력
-    public void CheckTiming()
+    public bool CheckTiming()
     {
         
         //노트리스트를 돌면서
@@ -77,7 +77,7 @@ public class TimingManager : MonoBehaviour
             //생성된노트의 위치변수
             float notePosX = createdNoteList[j].transform.localPosition.x;
 
-
+             
             //판정목록을 돌면서(0부터 돌아야 퍼펙트부터 내려가면서 판정함)
             for (int k=0; k<timingPositions.Length; k++)
             {
@@ -89,16 +89,14 @@ public class TimingManager : MonoBehaviour
                     createdNoteList.RemoveAt(j);
 
 
-                    //판정이 퍼펙, 그레잍,굿일때만 이펙트 호출
+                    //판정이 퍼펙, 그레잍,굿일때만 타격이펙트 호출
                     if (k<timingPositions.Length-1)
-                    {
-                        //타격이펙트
-                        effectManager.NoteHitEffect();
-                        //판정이펙트
-                        effectManager.JudgementEffect(k);
+                    {                       
+                        effectManager.NoteHitEffect();                         
                     }
+                    effectManager.JudgementEffect(k);  //판정이펙트
                     //점수 증가시키고, 판정횟수를 기록
-                    scoreManager.IncreaseScore(k);
+                    ScoreManager.instance.IncreaseScore(k);
                     judgementRecord[k]++;
                     //체력이 증가하는 콤보횟수를 체크
                     statusManager.CheckHPCombo();
@@ -107,30 +105,27 @@ public class TimingManager : MonoBehaviour
                     audioManager.PlaySFX("Choice");
 
                     //맞는 판정을 찾았다면 반복문을 나와라
-                    return;
+                    return true;
                 }
 
 
             }
 
         }
-        //타이밍이 아예 안맞으면 콤보 리셋. 미스이펙트 호출, 미스 판정횟수 기록
-        comboManager.Resetcombo();
-        effectManager.JudgementEffect(4);
-        MissRecord();
-
-        //미스일경우 체력 감소
-        statusManager.DecreaseHP(1);
-
+        //타이밍이 아예 안맞으면 미스        
+        MissRecord();        
+        return false;
 
     }
 
+    //미스판정일 경우
     public void MissRecord()
     {
-        //미스 판정횟수 기록
-        judgementRecord[4]++;
-        //체력회복콤보를 리셋
-        statusManager.ResetHPCombo();
+        comboManager.Resetcombo();  //콤보리셋
+        effectManager.JudgementEffect(4);   //미스이펙트 호출       
+        judgementRecord[4]++;   //미스 판정횟수 기록
+        statusManager.DecreaseHP(1);    //체력 감소
+        statusManager.ResetHPCombo();    //체력회복콤보를 리셋
     }
 
 

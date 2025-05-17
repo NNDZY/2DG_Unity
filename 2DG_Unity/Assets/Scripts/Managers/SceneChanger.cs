@@ -37,8 +37,4 @@ public class SceneChanger : MonoBehaviour
     }
 
 
-    void Update()
-    {
-        
-    }
 }

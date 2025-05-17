@@ -17,6 +17,14 @@ public class CenterFrame : MonoBehaviour
     public string bgmName = "";
 
 
+    NoteManager noteManager;
+
+
+    private void Start()
+    {
+        noteManager = FindObjectOfType<NoteManager>();
+    }
+
     public void ResetMusic()
     {
         musicStart = false;
@@ -38,6 +46,16 @@ public class CenterFrame : MonoBehaviour
                 musicStart = true;
             }
         }
+        //마지막노트가 닿으면 팡파레소리를 냄
+        if (collision.CompareTag("Finish"))
+        {
+            //audioSource.Play();
+            AudioManager.instance.PlaySFX("Fanfare");
+            PlayerController.s_canPressKey = false;
+            noteManager.RemoveNote();
+
+        }
+
 
     }
 
