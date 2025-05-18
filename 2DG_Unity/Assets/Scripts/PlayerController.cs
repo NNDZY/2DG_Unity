@@ -69,4 +69,11 @@ public class PlayerController : MonoBehaviour
 
 
 
+
+    public void Initialized()
+    {
+        s_canPressKey = true;
+    }
+
+
 }

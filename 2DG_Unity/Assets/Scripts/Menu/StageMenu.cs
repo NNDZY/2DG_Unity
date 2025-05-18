@@ -28,8 +28,13 @@ public class StageMenu : MonoBehaviour
     [SerializeField] TMP_Text txtSongComposer = null;
     [SerializeField] Image imgDisk = null;
 
+    //[SerializeField] TMP_Text txtSongScore = null;
+
 
     [SerializeField] GameObject titleMenu = null;
+
+
+    //DataManager dataManager;
 
 
     //현재 노래가 무엇인지 담을 변수
@@ -38,6 +43,11 @@ public class StageMenu : MonoBehaviour
 
     void Start()
     {
+        //if(dataManager==null)
+        //{ 
+        //dataManager = FindObjectOfType<DataManager>();
+        //}
+
         SettingSong();
     }
 
@@ -84,6 +94,7 @@ public class StageMenu : MonoBehaviour
 
         AudioManager.instance.PlayBGM("BGM" + (currentSong+1));
 
+        //txtSongScore.text = string.Format("{0:#,##0}", dataManager.score[currentSong]);
     }
 
 
@@ -105,7 +116,7 @@ public class StageMenu : MonoBehaviour
 
     public void ButtonPlay()
     {
-
+        
         int t_bpm = songList[currentSong].bpm;
 
 

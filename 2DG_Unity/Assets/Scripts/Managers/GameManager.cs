@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     StatusManager statusManager;
     PlayerController playerController;
     NoteManager noteManager;
+    Result result;
 
     //비활성화된 파라미터는 불러올수 없어서 인스펙터로 직접 넣어줘야함
     [SerializeField] CenterFrame theMusic;
@@ -38,6 +39,9 @@ public class GameManager : MonoBehaviour
         combomanager = FindObjectOfType<ComboManager>();
         timingManager = FindObjectOfType<TimingManager>();
         statusManager = FindObjectOfType<StatusManager>();
+        playerController = FindObjectOfType<PlayerController>();
+        result = FindObjectOfType<Result>();
+
     }
 
    
@@ -51,11 +55,16 @@ public class GameManager : MonoBehaviour
 
         theMusic.bgmName = "BGM" + p_songNum;
 
+        //게임시작시 bpm을 변화시킨다
         noteManager.bpm = p_bpm;
+
+        //게임 재시작시 기록을 초기화
         combomanager.Resetcombo();
         timingManager.Initialized();
         statusManager.Initialized();
+        playerController.Initialized();
         ScoreManager.instance.Initialized();
+        result.SetCurrentSong(p_songNum);
 
         AudioManager.instance.StopBGM();
 

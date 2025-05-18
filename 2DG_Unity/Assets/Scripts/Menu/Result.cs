@@ -23,10 +23,12 @@ public class Result : MonoBehaviour
     [SerializeField] TMP_Text txtScore = null;
     [SerializeField] TMP_Text txtMaxCombo = null;
 
+    int currentSong = 0;
 
     ComboManager comboManager;
     TimingManager timingManager;
     SceneChanger scenechanger;
+    //DataManager dataManager;
 
 
     private void Awake()
@@ -39,6 +41,14 @@ public class Result : MonoBehaviour
     {
         comboManager = FindObjectOfType<ComboManager>();
         timingManager = FindObjectOfType<TimingManager>();
+        //dataManager = FindObjectOfType<DataManager>();
+    }
+
+
+
+    public void SetCurrentSong(int p_songNum)
+    {
+        currentSong = p_songNum;
     }
 
 
@@ -81,6 +91,14 @@ public class Result : MonoBehaviour
         txtScore.text = string.Format("{0:#,##0}", t_currentScore);
         txtMaxCombo.text = string.Format("{0:#,##0}", t_maxCombo);
 
+
+        //현재 곡의 점수가 기존 최고점보다 높으면, 최고점을 바꿔준다
+        //if(t_currentScore> dataManager.score[currentSong])
+        //{
+        //    dataManager.score[currentSong] = t_currentScore;
+        //    dataManager.SaveScore();
+
+        //}
     }
 
 
