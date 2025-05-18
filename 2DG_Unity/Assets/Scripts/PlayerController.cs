@@ -42,28 +42,25 @@ public class PlayerController : MonoBehaviour
 
         if(GameManager.instance.isStartGame)
         {
-            //A,D,스페이스바 압력으로 나눠줘야함
-            if(Input.GetKeyDown(KeyCode.Space))
+            if (s_canPressKey)
             {
-                if(s_canPressKey)
-                {
-
-                    timingManager.CheckTiming();
-                }
-            
                 
+                if (Input.GetKeyDown(KeyCode.LeftArrow))    //노트R
+                {
+                    timingManager.CheckTiming(0);
+                }
 
+                if (Input.GetKeyDown(KeyCode.RightArrow))   //노트B
+                {
+                    timingManager.CheckTiming(1);
+                }
+
+                if (Input.GetKeyDown(KeyCode.Space))        //노트Y
+                {
+                    timingManager.CheckTiming(2);
+                }
             }
-
-
         }
-
-
-        //만약 A키를 눌렀을때 그 노트가 R이라면
-        //if (Input.GetKeyDown(KeyCode.A) &&ObjectPool.instance.noteQueueR)
-        //{
-        //    timingManager.CheckTiming();
-        //}
 
     }
 

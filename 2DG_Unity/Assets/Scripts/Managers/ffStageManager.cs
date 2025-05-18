@@ -12,7 +12,6 @@ public class ffStageManager : MonoBehaviour
     int stepCount = 0;
     int totalPlateCount = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         stagePlates = stage.GetComponent<ffStage>().plates;

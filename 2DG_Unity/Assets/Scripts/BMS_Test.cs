@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public class NoteData
+public class NoteData1
 {
     public int measurePosition; // 001 마디(제일 처음마디)위치
 
-    public int linePosition; // A2 라인위치(첫번째라인)
+    public int linePosition; // 라인 채널위치(첫번째라인)11,12,13
 
-    public string notePosition; // 00AA 노트위치
+    public string noteValue; // 00AA 노트값
 
     public float noteTime; // 노트 생성 시간
 
@@ -41,7 +41,7 @@ public class BMS_Test : MonoBehaviour
 
     [SerializeField] private string bmsFile;
 
-    public NoteData noteData;
+    public NoteData1 noteData;
 
 
     private int headKey;
@@ -53,12 +53,13 @@ public class BMS_Test : MonoBehaviour
     private Dictionary<int, string> dicBmsData;
     private Dictionary<string, string> dicHeaderData;
 
-    private Queue<NoteData> queNoteDataAZ;
+    private Queue<NoteData1> queNoteDataAZ;
 
 
 
     void Start()
     {
+
         ReadBMSfile();
     }
 
@@ -161,12 +162,12 @@ public class BMS_Test : MonoBehaviour
                                         if (tempNotePosition.Substring(i * 2, 2).StartsWith("Z"))
                                         {//음악정보 : 000, zz
                                             float tempNoteTime = ((tempMeasurePosition) * (this.tikTime)) + ((i) * (this.tikTime) / (tempNotePosition.Length / 2));//ZZ
-                                            this.noteData = new NoteData();
+                                            this.noteData = new NoteData1();
                                             this.noteData.songStartTime = tempNoteTime;
                                             this.noteData.measurePosition = tempMeasurePosition;
                                             this.noteData.linePosition = tempLinePosition;
                                             this.noteData.noteTime = 10000.0f;
-                                            this.noteData.notePosition = tempNotePosition;
+                                            this.noteData.noteValue = tempNotePosition;
                                             this.queNoteDataAZ.Enqueue(this.noteData);
                                         }
                                     }
@@ -180,11 +181,11 @@ public class BMS_Test : MonoBehaviour
                                         if (tempNotePosition.Substring(i * 2, 2).StartsWith("A"))   
                                         {//일반노트
                                             float tempNoteTime = ((tempMeasurePosition) * (this.tikTime)) + ((i) * (this.tikTime) / (tempNotePosition.Length / 2));//AA
-                                            this.noteData = new NoteData();
+                                            this.noteData = new NoteData1();
                                             this.noteData.measurePosition = tempMeasurePosition;
                                             this.noteData.linePosition = tempLinePosition;
                                             this.noteData.noteTime = tempNoteTime;
-                                            this.noteData.notePosition = tempNotePosition;
+                                            this.noteData.noteValue = tempNotePosition;
                                             this.noteData.songStartTime = 10000.0f;
                                             this.queNoteDataAZ.Enqueue(this.noteData);
                                         }
@@ -199,11 +200,11 @@ public class BMS_Test : MonoBehaviour
                                         if (tempNotePosition.Substring(i * 2, 2).StartsWith("B"))
                                         {//일반노트
                                             float tempNoteTime = ((tempMeasurePosition) * (this.tikTime)) + ((i) * (this.tikTime) / (tempNotePosition.Length / 2));//BB
-                                            this.noteData = new NoteData();
+                                            this.noteData = new NoteData1();
                                             this.noteData.measurePosition = tempMeasurePosition;
                                             this.noteData.linePosition = tempLinePosition;
                                             this.noteData.noteTime = tempNoteTime;
-                                            this.noteData.notePosition = tempNotePosition;
+                                            this.noteData.noteValue = tempNotePosition;
                                             this.noteData.songStartTime = 10000.0f;
                                             this.queNoteDataAZ.Enqueue(this.noteData);
                                         }
@@ -218,11 +219,11 @@ public class BMS_Test : MonoBehaviour
                                         if (tempNotePosition.Substring(i * 2, 2).StartsWith("C"))
                                         {//일반노트
                                             float tempNoteTime = ((tempMeasurePosition) * (this.tikTime)) + ((i) * (this.tikTime) / (tempNotePosition.Length / 2));//CC
-                                            this.noteData = new NoteData();
+                                            this.noteData = new NoteData1();
                                             this.noteData.measurePosition = tempMeasurePosition;
                                             this.noteData.linePosition = tempLinePosition;
                                             this.noteData.noteTime = tempNoteTime;
-                                            this.noteData.notePosition = tempNotePosition;
+                                            this.noteData.noteValue = tempNotePosition;
                                             this.noteData.songStartTime = 10000.0f;
                                             this.queNoteDataAZ.Enqueue(this.noteData);
                                         }
@@ -239,7 +240,7 @@ public class BMS_Test : MonoBehaviour
         }
     }
     //노트데이터 aa,bb,cc,zz...?
-    public Queue<NoteData> GetNoteDataAZ()
+    public Queue<NoteData1> GetNoteDataAZ()
     {
         return this.queNoteDataAZ;
     }

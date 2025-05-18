@@ -13,6 +13,9 @@ public class Note : MonoBehaviour
     Image noteImage;
 
 
+    // 이 노트가 어느 라인(AA, BB, CC)에 속하는지에 대한 변수
+    public int lane;
+
     //1번씩 호출
     private void OnEnable()
     {
