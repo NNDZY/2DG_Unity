@@ -69,8 +69,8 @@ public class ComboManager : MonoBehaviour
 
 
 
-    //콤보를 리셋하는 함수
-    public void Resetcombo()
+    //현재콤보를 리셋하는 함수
+    public void ResetCurrentcombo()
     {
         currentCombo = 0;
         txtCombo.text = "0";
@@ -87,7 +87,11 @@ public class ComboManager : MonoBehaviour
         return maxCombo;
     }
 
-
+    //최대콤보를 리셋하는 함수
+    public void ResetMaxCombo()
+    {
+        maxCombo = 0;
+    }
 
 
 

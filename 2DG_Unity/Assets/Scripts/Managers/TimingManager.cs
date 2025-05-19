@@ -60,12 +60,10 @@ public class TimingManager : MonoBehaviour
         //타이밍위치 설정 : 포문을 돌면서 타이밍포지션의 중심에서 절반만큼 이동하도록 작성
         for (int i = 0; i < timingRect.Length; i++)
         {
-            //Set(x,y) : 판정위치의 중심에서 판정범위의 절반만큼 얖옆으로 이동한 범위를 나타냄(=판정범위만큼의 범위가 된다)
-            //timingPositions[i].Set(correctTiming.localPosition.x - timingRect[i].rect.width / 2,
-            //                       correctTiming.localPosition.x + timingRect[i].rect.width / 2);
             float leftBound = correctTiming.anchoredPosition.x - timingRect[i].rect.width / 2;  // 왼쪽 범위
             float rightBound = correctTiming.anchoredPosition.x + timingRect[i].rect.width / 2; // 오른쪽 범위
 
+            //Set(x,y) : 판정위치의 중심에서 판정범위의 절반만큼 얖옆으로 이동한 범위를 나타냄(=판정범위만큼의 범위가 된다)
             timingPositions[i].Set(leftBound, rightBound);
 
 
@@ -73,16 +71,16 @@ public class TimingManager : MonoBehaviour
 
 
 
+        //판정범위확인
+        //for (int i = 0; i < timingPositions.Length; i++)
+        //{
+        //    RectTransform clone = Instantiate(judgmentLinePrefab, judgmentLineParent);
+        //    float centerX = (timingPositions[i].x + timingPositions[i].y) / 2f;
+        //    float width = timingPositions[i].y - timingPositions[i].x;
 
-        for (int i = 0; i < timingPositions.Length; i++)
-        {
-            RectTransform clone = Instantiate(judgmentLinePrefab, judgmentLineParent);
-            float centerX = (timingPositions[i].x + timingPositions[i].y) / 2f;
-            float width = timingPositions[i].y - timingPositions[i].x;
-
-            clone.anchoredPosition = new Vector2(centerX, 0f);
-            clone.sizeDelta = new Vector2(width, 10f); // 10은 높이
-        }
+        //    clone.anchoredPosition = new Vector2(centerX, 0f);
+        //    clone.sizeDelta = new Vector2(width, 10f); // 10은 높이
+        //}
 
 
 
@@ -96,7 +94,8 @@ public class TimingManager : MonoBehaviour
     {
 
         //노트리스트를 돌면서
-        for (int j = 0; j < createdNoteList.Count; j++)
+        //for (int j = 0; j < createdNoteList.Count; j++)가 아닌 역순으로 돌기
+        for (int j = createdNoteList.Count-1; j >= 0; j--)
         {
             //null체크
             if (createdNoteList[j] == null) continue;
@@ -134,6 +133,7 @@ public class TimingManager : MonoBehaviour
                     //체력이 증가하는 콤보횟수를 체크
                     statusManager.CheckHPCombo();
 
+                    Debug.Log("Hit Note: " + note.gameObject.name);
                     //맞는 판정을 찾았다면 반복문을 나와라
                     return true;
                 }
@@ -149,10 +149,10 @@ public class TimingManager : MonoBehaviour
     //미스판정일 경우
     public void MissRecord()
     {
-        comboManager.Resetcombo();  //콤보리셋
+        comboManager.ResetCurrentcombo();  //콤보리셋
         effectManager.JudgementEffect(4);   //미스이펙트 호출       
         judgementRecord[4]++;   //미스 판정횟수 기록
-        //statusManager.DecreaseHP(1);    //체력 감소
+        statusManager.DecreaseHP(1);    //체력 감소
         statusManager.ResetHPCombo();    //체력회복콤보를 리셋
     }
 

@@ -5,7 +5,7 @@ using System.IO;
 
 
 [System.Serializable]
-public class NoteData2
+public class NoteData
 {
     public float time;       // 음악 시작 후 몇 초에 노트 생성
     public int lane;         // 0:AA, 1:BB, 2:CC
@@ -21,9 +21,9 @@ public class BMSParser : MonoBehaviour
 
 
     //파일을 줄 단위로 읽고 노트데이터를 리스트로 반환
-    public List<NoteData2> Parse()
+    public List<NoteData> Parse()
     {
-        List<NoteData2> notes = new List<NoteData2>();
+        List<NoteData> notes = new List<NoteData>();
 
         // StreamingAssets 경로에서 BMS 파일 읽기
         string path = Path.Combine(Application.streamingAssetsPath, bmsFileName);
@@ -65,7 +65,7 @@ public class BMSParser : MonoBehaviour
                 else continue;
 
                 float timing = measureTime + ((float)i / totalDiv) * 4f * beatDuration;
-                notes.Add(new NoteData2 { time = timing, lane = lane });
+                notes.Add(new NoteData { time = timing, lane = lane });
             }
         }
 

@@ -25,7 +25,9 @@ public class Result : MonoBehaviour
 
     int currentSong = 0;
 
-    
+    //결과창 생성 여부
+    public bool isResultShown = false;
+
 
     ComboManager comboManager;
     TimingManager timingManager;
@@ -35,7 +37,7 @@ public class Result : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
         scenechanger = FindObjectOfType<SceneChanger>();
     }
 
@@ -56,6 +58,8 @@ public class Result : MonoBehaviour
 
     public void ShowResult()
     {
+        GameManager.instance.isStartGame = false;
+
         AudioManager.instance.StopBGM();
 
         //scenechanger.GotoResultScene();
@@ -104,8 +108,7 @@ public class Result : MonoBehaviour
     public void ButtonMainMenu()
     {
         goUI.SetActive(false);
-        GameManager.instance.MainMenu();
-        comboManager.Resetcombo();
+        GameManager.instance.GoMainMenu();
     }
 
 

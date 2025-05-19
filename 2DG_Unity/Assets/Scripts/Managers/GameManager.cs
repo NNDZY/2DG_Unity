@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
 
 
-    public bool isStartGame = false;
+    public bool isStartGame;
 
 
     ComboManager combomanager;
@@ -34,6 +34,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         instance = this;
+
+        isStartGame = false;
 
         noteManager = FindObjectOfType<NoteManager>();
         combomanager = FindObjectOfType<ComboManager>();
@@ -58,8 +60,14 @@ public class GameManager : MonoBehaviour
         //게임시작시 bpm을 변화시킨다
         noteManager.bpm = p_bpm;
 
+
+        //노트스폰 배열을 처음으로 되돌린다
+        noteManager.ResetNote();
+
+
         //게임 재시작시 기록을 초기화
-        combomanager.Resetcombo();
+        combomanager.ResetMaxCombo();
+        combomanager.ResetCurrentcombo();
         timingManager.Initialized();
         statusManager.Initialized();
         playerController.Initialized();
@@ -68,19 +76,19 @@ public class GameManager : MonoBehaviour
 
         AudioManager.instance.StopBGM();
 
-
+        result.isResultShown = false;
         isStartGame = true;
     }
 
     
-    public void MainMenu()
+    public void GoMainMenu()
     {
+
         //모든 게임UI를 비활성화할때까지 반복
         for (int i = 0; i < goGameUI.Length; i++)
         {
             goGameUI[i].SetActive(false);
         }
-
         goTitleUI.SetActive(true);
 
     }

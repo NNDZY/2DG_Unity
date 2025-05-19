@@ -36,7 +36,9 @@ public class ScoreManager : MonoBehaviour
             Destroy(gameObject);  // 중복 방지
         }
         instance = this;
-        DontDestroyOnLoad(gameObject);  // 씬 넘어가도 유지
+
+        //씬 넘어가도 유지(부모가 없는 오브젝트에만 적용 가능)
+        //DontDestroyOnLoad(gameObject); 
 
     }
 

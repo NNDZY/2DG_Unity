@@ -242,7 +242,7 @@ public class NoteManager : MonoBehaviour
 
     public int bpm = 155;
 
-    private List<NoteData2> notes;
+    private List<NoteData> notes;
     private int nextIndex = 0;
 
     TimingManager timingManager;
@@ -270,35 +270,38 @@ public class NoteManager : MonoBehaviour
     void Update()
     {
         if (!GameManager.instance.isStartGame) return;
-        if (nextIndex >= notes.Count) return;
-
-        //마지막 노트가 생성되자마자 종료되는 문제발생
-        //if (nextIndex >= notes.Count)
-        //{
-        //    result.ShowResult();
-
-        //}
 
         float songTime = audioSource.time;
 
+        //노트를 발생시킨다
         // songTime + n초로 노트가 나타나는 타이밍 조절
         while (nextIndex < notes.Count && notes[nextIndex].time <= songTime + 3.8f)
         {
             SpawnNote(notes[nextIndex]);
-            nextIndex++;
+            ++nextIndex;
 
         }
-            //노래가 끝나면 결과창 호출..안됨
-            //if (audioSource.time >= audioSource.clip.length)
-            //{
-            //    Debug.Log("노래 종료");
-            //    result.ShowResult();
-            //}
-
+            //노래가 끝나면 결과창 호출
+            if (!audioSource.isPlaying && !result.isResultShown)
+            {
+                Debug.Log("노래 종료");
+                result.ShowResult();
+                RemoveNote();
+                result.isResultShown = true;
+                nextIndex = 0;
+            }
 
     }
 
-    void SpawnNote(NoteData2 noteData)
+    public void ResetNote()
+    {
+        //인덱스를 처음으로 되돌림..?
+        SpawnNote(notes[0]);
+        
+    }
+
+
+    void SpawnNote(NoteData noteData)
     {
         GameObject note = null;
 
@@ -347,11 +350,11 @@ public class NoteManager : MonoBehaviour
 
             }
             //노트가 리스트에 존재하고 있다면
-            if (timingManager.createdNoteList.Contains(collision.gameObject))
-            {
-                //파괴하기전 리스트에서 삭제
-                timingManager.createdNoteList.Remove(collision.gameObject);
-            }
+            //if (timingManager.createdNoteList.Contains(collision.gameObject))
+            //{
+            //    //파괴하기전 리스트에서 삭제
+            //    timingManager.createdNoteList.Remove(collision.gameObject);
+            //}
 
 
             // 태그에 따라 맞는 큐에만 반납
