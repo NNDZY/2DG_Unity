@@ -25,6 +25,8 @@ public class Result : MonoBehaviour
 
     int currentSong = 0;
 
+    
+
     ComboManager comboManager;
     TimingManager timingManager;
     SceneChanger scenechanger;
@@ -54,13 +56,10 @@ public class Result : MonoBehaviour
 
     public void ShowResult()
     {
-
-        scenechanger.GotoResultScene();
-
-        //°á°úÃ¢ÀÌ ³ª¿À¸é ÇÃ·¹ÀÌÀ½¾ÇÀ» ¸ØÃá´Ù 
-        FindObjectOfType<CenterFrame>().ResetMusic();
-
         AudioManager.instance.StopBGM();
+
+        //scenechanger.GotoResultScene();
+
 
 
         //UIÃ¢ È°¼ºÈ­

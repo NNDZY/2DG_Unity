@@ -2,60 +2,63 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NoteSpawner : MonoBehaviour
-{
-    public AudioSource music;
-    BMSParser parser;
+//빈 객체(노트 스포너)생성하고 스크립트삽입
+//노트매니저와 합침
 
-    public Transform[] spawnPoints; // 0: AA, 1: BB, 2: CC
-    public GameObject notePrefabR;
-    public GameObject notePrefabB;
-    public GameObject notePrefabY;
+//public class NoteSpawner : MonoBehaviour
+//{
+//    public AudioSource music;
+//    BMSParser parser;
 
-    private List<NoteData2> notes;
-    private int nextIndex = 0;
+//    public Transform[] spawnPoints; // 0: AA, 1: BB, 2: CC
+//    public GameObject notePrefabR;
+//    public GameObject notePrefabB;
+//    public GameObject notePrefabY;
 
-    void Start()
-    {
-        parser = FindObjectOfType<BMSParser>();
-        notes = parser.Parse();
-        music.Play();
-    }
+//    private List<NoteData2> notes;
+//    private int nextIndex = 0;
 
-    void Update()
-    {
-        if (nextIndex >= notes.Count) return;
+//    void Start()
+//    {
+//        parser = FindObjectOfType<BMSParser>();
+//        notes = parser.Parse();
+//        music.Play();
+//    }
 
-        float songTime = music.time;
+//    void Update()
+//    {
+//        if (nextIndex >= notes.Count) return;
 
-        while (nextIndex < notes.Count && notes[nextIndex].time <= songTime)
-        {
-            SpawnNote(notes[nextIndex]);
-            nextIndex++;
-        }
-        //while (nextIndex < notes.Count && notes[nextIndex].time <= songTime + 1.5f)
-        //{
-        //    SpawnNote(notes[nextIndex]);
-        //    nextIndex++;
-        //}
-    }
+//        float songTime = music.time;
 
-    void SpawnNote(NoteData2 note2)
-    {
-        Transform spawnPoint = spawnPoints[note2.lane];
+//        while (nextIndex < notes.Count && notes[nextIndex].time <= songTime+1.5f)
+//        {
+//            SpawnNote(notes[nextIndex]);
+//            nextIndex++;
+//        }
+//        while (nextIndex < notes.Count && notes[nextIndex].time <= songTime + 1.5f)
+//        {
+//            SpawnNote(notes[nextIndex]);
+//            nextIndex++;
+//        }
+//    }
 
-        GameObject prefab = null;
+//    void SpawnNote(NoteData2 note2)
+//    {
+//        Transform spawnPoint = spawnPoints[note2.lane];
 
-        switch (note2.lane)
-        {
-            case 0: prefab = notePrefabY; break; // AA
-            case 1: prefab = notePrefabR; break; // BB
-            case 2: prefab = notePrefabB; break; // CC
-        }
+//        GameObject prefab = null;
 
-        if (prefab != null)
-        {
-            Instantiate(prefab, spawnPoint.position, Quaternion.identity);
-        }
-    }
-}
+//        switch (note2.lane)
+//        {
+//            case 0: prefab = notePrefabY; break; // AA
+//            case 1: prefab = notePrefabR; break; // BB
+//            case 2: prefab = notePrefabB; break; // CC
+//        }
+
+//        if (prefab != null)
+//        {
+//            Instantiate(prefab, spawnPoint.position, Quaternion.identity);
+//        }
+//    }
+//}

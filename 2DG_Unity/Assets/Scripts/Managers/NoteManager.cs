@@ -246,6 +246,8 @@ public class NoteManager : MonoBehaviour
     private int nextIndex = 0;
 
     TimingManager timingManager;
+    Result result;
+
 
     //노트 생성상태
     bool noteActive = true;
@@ -256,9 +258,10 @@ public class NoteManager : MonoBehaviour
 
 
 
+        result = FindObjectOfType<Result>();
 
 
-
+        parser = FindObjectOfType<BMSParser>();
         timingManager = FindObjectOfType<TimingManager>();
         notes = parser.Parse();  // BMS 노트 데이터 파싱
         audioSource.Play();
@@ -269,14 +272,30 @@ public class NoteManager : MonoBehaviour
         if (!GameManager.instance.isStartGame) return;
         if (nextIndex >= notes.Count) return;
 
+        //마지막 노트가 생성되자마자 종료되는 문제발생
+        //if (nextIndex >= notes.Count)
+        //{
+        //    result.ShowResult();
+
+        //}
+
         float songTime = audioSource.time;
 
-        // 미리보기 시간 1.5초
-        while (nextIndex < notes.Count && notes[nextIndex].time <= songTime + 1.5f)
+        // songTime + n초로 노트가 나타나는 타이밍 조절
+        while (nextIndex < notes.Count && notes[nextIndex].time <= songTime + 3.8f)
         {
             SpawnNote(notes[nextIndex]);
             nextIndex++;
+
         }
+            //노래가 끝나면 결과창 호출..안됨
+            //if (audioSource.time >= audioSource.clip.length)
+            //{
+            //    Debug.Log("노래 종료");
+            //    result.ShowResult();
+            //}
+
+
     }
 
     void SpawnNote(NoteData2 noteData)
@@ -357,7 +376,6 @@ public class NoteManager : MonoBehaviour
 
         }
     }
-
 
 
 

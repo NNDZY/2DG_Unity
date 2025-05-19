@@ -47,16 +47,19 @@ public class PlayerController : MonoBehaviour
                 
                 if (Input.GetKeyDown(KeyCode.LeftArrow))    //노트R
                 {
+                    AudioManager.instance.PlaySFX("NoteR");
                     timingManager.CheckTiming(0);
                 }
 
                 if (Input.GetKeyDown(KeyCode.RightArrow))   //노트B
                 {
+                    AudioManager.instance.PlaySFX("NoteB");
                     timingManager.CheckTiming(1);
                 }
 
                 if (Input.GetKeyDown(KeyCode.Space))        //노트Y
                 {
+                    AudioManager.instance.PlaySFX("NoteY");
                     timingManager.CheckTiming(2);
                 }
             }

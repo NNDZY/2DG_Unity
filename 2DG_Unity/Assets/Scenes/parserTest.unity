@@ -399,15 +399,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81855414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -15.991925}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1819378908}
+  m_Children:
+  - {fileID: 276613289}
+  m_Father: {fileID: 2015844898}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409.36523, y: -4.3184204}
+  m_AnchorMin: {x: 0.29500002, y: 0.48666668}
+  m_AnchorMax: {x: 0.29500002, y: 0.48666668}
+  m_AnchoredPosition: {x: -743, y: 80}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &81855416
@@ -490,7 +491,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1227,20 +1228,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276613288}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 7.9959626}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1733893373}
   - {fileID: 1054006778}
   - {fileID: 792263279}
   - {fileID: 658384423}
-  m_Father: {fileID: 1819378908}
+  m_Father: {fileID: 81855415}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409.3652, y: 0}
+  m_AnchorMin: {x: 0.28647918, y: 0.70400006}
+  m_AnchorMax: {x: 0.28647918, y: 0.70400006}
+  m_AnchoredPosition: {x: 21.372131, y: -18.08075}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &293296867
@@ -2515,6 +2516,12 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 151e49b986bc14644a531820971c3161, type: 3}
   - name: Switch
     clip: {fileID: 8300000, guid: 8a67f66477d31544a88600b338a5415c, type: 3}
+  - name: NoteR
+    clip: {fileID: 8300000, guid: 6df06eef04b87264f818f19cde83e028, type: 3}
+  - name: NoteB
+    clip: {fileID: 8300000, guid: 7649547989e20bb48ad935ee71def052, type: 3}
+  - name: NoteY
+    clip: {fileID: 8300000, guid: c83e5125d303a4d4598c654ea06f470d, type: 3}
   bgm:
   - name: BGM1
     clip: {fileID: 8300000, guid: 71ef3a788a3bef44a92ce2c48f03913e, type: 3}
@@ -3705,7 +3712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.20007324, y: 26.499207}
+  m_AnchoredPosition: {x: -0.20019531, y: 26.499146}
   m_SizeDelta: {x: 10, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &658384424
@@ -3822,13 +3829,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectInfo:
   - goPrefab: {fileID: 7579364995695959504, guid: b07ba91094334bf47ba90198c8e959d0, type: 3}
-    count: 10
+    count: 15
     itPoolParent: {fileID: 2015844898}
   - goPrefab: {fileID: 8018823686415614920, guid: d30f33527db8c0f4a92a11e04680c19a, type: 3}
-    count: 10
+    count: 15
     itPoolParent: {fileID: 2015844898}
   - goPrefab: {fileID: 7995727171763302036, guid: 2637c78eb195c2f408e4ca2f500659b7, type: 3}
-    count: 10
+    count: 15
     itPoolParent: {fileID: 2015844898}
 --- !u!4 &701106475
 Transform:
@@ -4225,7 +4232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.20007324, y: 26.499207}
+  m_AnchoredPosition: {x: -0.20019531, y: 26.499146}
   m_SizeDelta: {x: 40, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792263280
@@ -4464,7 +4471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &808928670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4931,7 +4938,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.20007324, y: 26.499207}
+  m_AnchoredPosition: {x: -0.20019531, y: 26.499146}
   m_SizeDelta: {x: 80, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1054006779
@@ -5336,12 +5343,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125127814}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d923dd134f04461459ee5e26964912be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 1798687679}
+  parser: {fileID: 0}
   spawnPoints:
   - {fileID: 1252563639}
   - {fileID: 1252563639}
@@ -5349,6 +5357,8 @@ MonoBehaviour:
   notePrefabR: {fileID: 7579364995695959504, guid: b07ba91094334bf47ba90198c8e959d0, type: 3}
   notePrefabB: {fileID: 8018823686415614920, guid: d30f33527db8c0f4a92a11e04680c19a, type: 3}
   notePrefabY: {fileID: 7995727171763302036, guid: 2637c78eb195c2f408e4ca2f500659b7, type: 3}
+  notes: []
+  nextIndex: 0
 --- !u!4 &1125127816
 Transform:
   m_ObjectHideFlags: 0
@@ -8261,7 +8271,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.20007324, y: 26.499207}
+  m_AnchoredPosition: {x: -0.20019531, y: 26.499146}
   m_SizeDelta: {x: 180, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733893374
@@ -8704,8 +8714,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 309200881}
-  - {fileID: 81855415}
-  - {fileID: 276613289}
   m_Father: {fileID: 2015844898}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -9414,6 +9422,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1819378908}
+  - {fileID: 81855415}
   - {fileID: 1252563639}
   - {fileID: 1692403692}
   m_Father: {fileID: 828438297}
@@ -9505,7 +9514,7 @@ MonoBehaviour:
   - {fileID: 1054006778}
   - {fileID: 1733893373}
   judgmentLinePrefab: {fileID: 3873632191773375116, guid: c233a7d2aa39fac4297d265c2066b9b5, type: 3}
-  judgmentLineParent: {fileID: 2015844898}
+  judgmentLineParent: {fileID: 276613289}
 --- !u!1 &2042487518
 GameObject:
   m_ObjectHideFlags: 0
