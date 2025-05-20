@@ -27,7 +27,7 @@ public class TitleMenu : MonoBehaviour
         this.gameObject.SetActive(false);
         AudioManager.instance.PlaySFX("Choice");
         AudioManager.instance.StopBGM();
-        //stageMenu.SettingSong(); /null
+        //stageMenu.SettingSong(); //null
 
 
 
@@ -36,10 +36,12 @@ public class TitleMenu : MonoBehaviour
 
     public void ButtonHowto()
     {
+        AudioManager.instance.PlaySFX("Choice");
         goHowtoUI.SetActive(true);
     }
     public void ButtonHowtoOut()
     {
+        AudioManager.instance.PlaySFX("Choice");
         goHowtoUI.SetActive(false);
 
     }
