@@ -6,18 +6,10 @@ using UnityEngine;
 //빈 오브젝트(메뉴-타이틀)에 스크립트 넣어줌
 public class TitleMenu : MonoBehaviour
 {
-
-
-
     [SerializeField] GameObject goStageUI = null;
 
+    [SerializeField] StageMenu stageMenu;
 
-    StageMenu stageMenu;
-
-    private void Awake()
-    {
-        stageMenu = FindObjectOfType<StageMenu>();
-    }
 
     public void ButtonStart()
     {
@@ -26,9 +18,13 @@ public class TitleMenu : MonoBehaviour
         this.gameObject.SetActive(false);
         AudioManager.instance.PlaySFX("Choice");
         AudioManager.instance.StopBGM();
+<<<<<<< Updated upstream
         //stageMenu.SettingSong(); /null
 
 
+=======
+        stageMenu.SettingSong();
+>>>>>>> Stashed changes
 
 
 

@@ -26,14 +26,10 @@ public class EffectManager : MonoBehaviour
 
         noteHitAnimator.SetTrigger("Hit");
     }
-
-
     //판정애니메이션을 재생하는 코드
     public void JudgementEffect(int p_num)
     {
         judgementImage.sprite = judgementSprites[p_num];
         judgementAnimator.SetTrigger("Hit");
     }
-
-
 }

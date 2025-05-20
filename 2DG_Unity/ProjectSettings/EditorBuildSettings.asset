@@ -11,10 +11,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/2SelectScene.unity
     guid: 3dad255aeb3d2ee499430e18e09b57c8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/3InGameScene.unity
     guid: 4fcd7f1ab2071784ea7170008de21884
   - enabled: 0
     path: Assets/Scenes/4EndingScene.unity
     guid: ab9363ed5f0cc1c4793f2cfca74a23be
+  - enabled: 1
+    path: Assets/Scenes/parserTest.unity
+    guid: 436119c0368b83b478b938414f9cece0
   m_configObjects: {}

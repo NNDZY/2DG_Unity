@@ -15,9 +15,6 @@ public class TimingManager : MonoBehaviour
 {
     //생성된 노트프리팹의 리스트
     public List<GameObject> createdNoteList = new List<GameObject>();
-    //public List<GameObject> createdNoteListR = new List<GameObject>();
-    //public List<GameObject> createdNoteListB = new List<GameObject>();
-    //public List<GameObject> createdNoteListY = new List<GameObject>();
 
     //판정이 몇개였는지 담을 배열 작성
     int[] judgementRecord = new int[5];
@@ -37,15 +34,12 @@ public class TimingManager : MonoBehaviour
     EffectManager effectManager;
     ComboManager comboManager;
     StatusManager statusManager;
-    AudioManager audioManager;
-
 
 
     [SerializeField] RectTransform judgmentLinePrefab;
     [SerializeField] Transform judgmentLineParent; // UI 부모 오브젝트
     private void Start()
     {
-        audioManager = AudioManager.instance;
         effectManager = FindObjectOfType<EffectManager>();
         comboManager = FindObjectOfType<ComboManager>();
         statusManager = FindObjectOfType<StatusManager>();
@@ -72,6 +66,7 @@ public class TimingManager : MonoBehaviour
 
 
 
+<<<<<<< Updated upstream
         for (int i = 0; i < timingPositions.Length; i++)
         {
             RectTransform clone = Instantiate(judgmentLinePrefab, judgmentLineParent);
@@ -86,6 +81,11 @@ public class TimingManager : MonoBehaviour
 
 
 
+=======
+        //    clone.anchoredPosition = new Vector2(centerX, 0f);
+        //    clone.sizeDelta = new Vector2(width, 10f); // 10은 높이
+        //}
+>>>>>>> Stashed changes
     }
 
     //생성된 노트리스트를 돌면서, 판정위치의 개수만큼 노트의 위치를 판정하고
@@ -118,6 +118,7 @@ public class TimingManager : MonoBehaviour
                     //노트를 숨기고, 리스트에서 지우기
                     note.HideNote();
                     createdNoteList.RemoveAt(j);
+                    j--;
 
 
                     //판정이 퍼펙, 그레잍,굿일때만 타격이펙트 호출

@@ -10,20 +10,12 @@ public class Sound
     public string name;
     public AudioClip clip;
 
-
-
 }
-
-
 
 //빈 오브젝트(오디오매니저)생성 후 넣어줌
 
 public class AudioManager : MonoBehaviour
 {
-
-
-
-
     [SerializeField] Sound[] sfx = null;
     [SerializeField] Sound[] bgm = null;
 
@@ -60,9 +52,6 @@ public class AudioManager : MonoBehaviour
             }
         }
     }
-
-
-
     public void StopBGM()
     {
         bgmPlayer.Stop();

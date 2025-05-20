@@ -13,12 +13,9 @@ public class Song
     public string composer;
     public int bpm;
     public Sprite sprite;
+    public BMSFile fileName;
 
 }
-
-
-
-
 //빈 오브젝트(메뉴-스테이지메뉴)에 스크립트 넣어줌
 public class StageMenu : MonoBehaviour
 {
@@ -34,20 +31,12 @@ public class StageMenu : MonoBehaviour
     [SerializeField] GameObject titleMenu = null;
 
 
-    //DataManager dataManager;
-
-
     //현재 노래가 무엇인지 담을 변수
     int currentSong = 0;
 
 
     void Start()
     {
-        //if(dataManager==null)
-        //{ 
-        //dataManager = FindObjectOfType<DataManager>();
-        //}
-
         SettingSong();
     }
 
@@ -94,31 +83,24 @@ public class StageMenu : MonoBehaviour
 
         AudioManager.instance.PlayBGM("BGM" + (currentSong+1));
 
-        //txtSongScore.text = string.Format("{0:#,##0}", dataManager.score[currentSong]);
     }
-
-
-
-
-
 
 
     //타이틀메뉴 활성화, 스테이지메뉴 비활성화
     public void ButtonBack()
     {
+        AudioManager.instance.PlaySFX("Choice");
         titleMenu.SetActive(true);
         this.gameObject.SetActive(false);
         AudioManager.instance.StopBGM();
+        AudioManager.instance.PlayBGM("MainBGM");
     }
-
-
-
-
     public void ButtonPlay()
     {
         
         int t_bpm = songList[currentSong].bpm;
 
+        AudioManager.instance.PlaySFX("Choice");
 
         //플레이버튼을 누르면 게임이 시작되고, 스테이지메뉴를 비활성화함
         GameManager.instance.GameStart(currentSong, t_bpm);

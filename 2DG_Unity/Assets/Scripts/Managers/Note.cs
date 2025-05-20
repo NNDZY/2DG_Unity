@@ -26,10 +26,6 @@ public class Note : MonoBehaviour
         }
         noteImage.enabled = true;
     }
-
-
-
-
     void Update()
     {
         //localposition인 이유 : 그냥 position이면 캔버스 내 좌표가 아니라 월드좌표로 움직인다

@@ -14,35 +14,18 @@ using UnityEngine.SceneManagement;
  */
 public class PlayerController : MonoBehaviour
 {
-    
-
-
-
-    //게임이 종료될때 플레이어 키 입력 방지
-    public static bool s_canPressKey = true;
-
-
     TimingManager timingManager;
-
-
-    SceneChanger sceneChanger;
-    Result result;
-
 
     void Start()
     {
         timingManager = FindObjectOfType<TimingManager>();
-        sceneChanger = FindObjectOfType<SceneChanger>();
-        result = FindObjectOfType<Result>();
     }
-
-
     void Update()
     {
 
         if(GameManager.instance.isStartGame)
         {
-            if (s_canPressKey)
+            if (!GameManager.instance.isGameOver)
             {
                 
                 if (Input.GetKeyDown(KeyCode.LeftArrow))    //노트R
@@ -63,14 +46,4 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-
-
-
-
-    public void Initialized()
-    {
-        s_canPressKey = true;
-    }
-
-
 }

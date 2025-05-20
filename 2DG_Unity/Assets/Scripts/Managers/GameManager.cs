@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     //게임플레이시 활성화시킬UI를 배열로만든다
     [SerializeField] GameObject[] goGameUI = null;
     [SerializeField] GameObject goTitleUI = null;
+    [SerializeField] Result result;
 
 
 
@@ -15,18 +16,19 @@ public class GameManager : MonoBehaviour
 
 
 
+<<<<<<< Updated upstream
     public bool isStartGame = false;
+=======
+    public bool isStartGame;
+    public bool isGameOver;
+>>>>>>> Stashed changes
 
 
     ComboManager combomanager;
     TimingManager timingManager;
     StatusManager statusManager;
-    PlayerController playerController;
-    NoteManager noteManager;
-    Result result;
 
     //비활성화된 파라미터는 불러올수 없어서 인스펙터로 직접 넣어줘야함
-    [SerializeField] CenterFrame theMusic;
 
 
 
@@ -35,12 +37,16 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
 
+<<<<<<< Updated upstream
         noteManager = FindObjectOfType<NoteManager>();
+=======
+        isStartGame = false;
+        isGameOver = false;
+
+>>>>>>> Stashed changes
         combomanager = FindObjectOfType<ComboManager>();
         timingManager = FindObjectOfType<TimingManager>();
         statusManager = FindObjectOfType<StatusManager>();
-        playerController = FindObjectOfType<PlayerController>();
-        result = FindObjectOfType<Result>();
 
     }
 
@@ -53,27 +59,57 @@ public class GameManager : MonoBehaviour
             goGameUI[i].SetActive(true);
         }
 
-        theMusic.bgmName = "BGM" + p_songNum;
+        //theMusic.bgmName = "BGM" + p_songNum;
 
         //게임시작시 bpm을 변화시킨다
-        noteManager.bpm = p_bpm;
+        NoteManager.instance.bpm = p_bpm;
 
+<<<<<<< Updated upstream
+=======
+
+        //노트스폰 배열을 처음으로 되돌린다
+        NoteManager.instance.ResetNote();
+
+
+>>>>>>> Stashed changes
         //게임 재시작시 기록을 초기화
         combomanager.Resetcombo();
         timingManager.Initialized();
         statusManager.Initialized();
-        playerController.Initialized();
         ScoreManager.instance.Initialized();
         result.SetCurrentSong(p_songNum);
 
         AudioManager.instance.StopBGM();
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         isStartGame = true;
+        isGameOver = false;
+
     }
 
+<<<<<<< Updated upstream
     
     public void MainMenu()
+=======
+
+
+     public void GameOver()
+    {
+        isStartGame = false;
+        isGameOver = true;
+        result.isResultShown = true;
+
+        NoteManager.instance.RemoveNote();     //노트를 지움
+        result.ShowResult();          //죽으면 결과창 출력
+
+    }
+
+
+    public void GoMainMenu()
+>>>>>>> Stashed changes
     {
         //모든 게임UI를 비활성화할때까지 반복
         for (int i = 0; i < goGameUI.Length; i++)
