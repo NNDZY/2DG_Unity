@@ -235,6 +235,9 @@ using UnityEngine;
 
 public class NoteManager : MonoBehaviour
 {
+    public static NoteManager instance;
+
+
     public AudioSource audioSource;
     public BMSParser parser;
 
@@ -255,7 +258,7 @@ public class NoteManager : MonoBehaviour
 
     void Start()
     {
-
+        instance = this;
 
 
         result = FindObjectOfType<Result>();
@@ -269,6 +272,12 @@ public class NoteManager : MonoBehaviour
 
     void Update()
     {
+        MoveNote();
+    }
+
+
+    public void MoveNote()
+    {
         if (!GameManager.instance.isStartGame) return;
 
         float songTime = audioSource.time;
@@ -278,18 +287,17 @@ public class NoteManager : MonoBehaviour
         while (nextIndex < notes.Count && notes[nextIndex].time <= songTime + 3.8f)
         {
             SpawnNote(notes[nextIndex]);
-            ++nextIndex;
-
+            nextIndex++;
         }
-            //노래가 끝나면 결과창 호출
-            if (!audioSource.isPlaying && !result.isResultShown)
-            {
-                Debug.Log("노래 종료");
-                result.ShowResult();
-                RemoveNote();
-                result.isResultShown = true;
-                nextIndex = 0;
-            }
+        //노래가 끝나면 결과창 호출
+        if (!audioSource.isPlaying && !result.isResultShown)
+        {
+            Debug.Log("노래 종료");
+            result.isResultShown = true;
+            result.ShowResult();
+            RemoveNote();
+            nextIndex = 0;
+        }
 
     }
 
@@ -304,6 +312,8 @@ public class NoteManager : MonoBehaviour
     void SpawnNote(NoteData noteData)
     {
         GameObject note = null;
+
+        Debug.Log($"Spawn Note - Lane: {noteData.lane}, Time: {noteData.time}, SongTime: {audioSource.time}");
 
         switch (noteData.lane)
         {

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 
 
@@ -26,7 +27,7 @@ public class StatusManager : MonoBehaviour
 
 
     Result result;
-    NoteManager noteManager;
+    //NoteManager noteManager;
 
 
     private void Start()
@@ -35,7 +36,7 @@ public class StatusManager : MonoBehaviour
         fill.fillAmount = 1;
 
         result = FindObjectOfType<Result>();
-        noteManager = FindObjectOfType<NoteManager>();
+        //noteManager = FindObjectOfType<NoteManager>();
     }
 
 
@@ -58,11 +59,14 @@ public class StatusManager : MonoBehaviour
 
         if(currentHP<=0)
         {
-            //Debug.Log("게임오버");
-            isGameOver = true;
-      
+            //isGameOver = true;
+            Debug.Log("게임오버");
+            result.isResultShown = true;
+
             result.ShowResult();          //죽으면 결과창 출력
-            noteManager.RemoveNote();     //노트를 지움
+            NoteManager.instance.RemoveNote();     //노트를 지움
+            NoteManager.instance.ResetNote();     //노트를 리셋
+            
         }
 
         fill.fillAmount = (float)currentHP / maxHP;

@@ -10,6 +10,7 @@ public class TitleMenu : MonoBehaviour
 
 
     [SerializeField] GameObject goStageUI = null;
+    [SerializeField] GameObject goHowtoUI = null;
 
 
     StageMenu stageMenu;
@@ -30,7 +31,16 @@ public class TitleMenu : MonoBehaviour
 
 
 
+    }
 
+
+    public void ButtonHowto()
+    {
+        goHowtoUI.SetActive(true);
+    }
+    public void ButtonHowtoOut()
+    {
+        goHowtoUI.SetActive(false);
 
     }
 
