@@ -10,7 +10,6 @@ using UnityEngine.UI;
 public class StatusManager : MonoBehaviour
 {
 
-    bool isGameOver = false;
 
     public int maxHP;
 
@@ -45,8 +44,6 @@ public class StatusManager : MonoBehaviour
     {
         currentHP = maxHP;
         fill.fillAmount = 1;
-
-        isGameOver = false;
     }
 
 
@@ -59,13 +56,15 @@ public class StatusManager : MonoBehaviour
 
         if(currentHP<=0)
         {
-            //isGameOver = true;
             Debug.Log("게임오버");
-            result.isResultShown = true;
+            GameManager.instance.GameOver();
+            //게임매니저-게임오버함수로 수정
+            //GameManager.instance.isGameOver = true;
+            //result.isResultShown = true;
 
-            result.ShowResult();          //죽으면 결과창 출력
-            NoteManager.instance.RemoveNote();     //노트를 지움
-            NoteManager.instance.ResetNote();     //노트를 리셋
+            //result.ShowResult();          //죽으면 결과창 출력
+            //NoteManager.instance.RemoveNote();     //노트를 지움
+            //NoteManager.instance.ResetNote();     //노트를 리셋
             
         }
 
@@ -105,8 +104,5 @@ public class StatusManager : MonoBehaviour
         currentHPCombo = 0;
         fill.fillAmount = (float)currentHP / maxHP;
     }
-    public bool IsGameOver()
-    {
-        return isGameOver;
-    }
+ 
 }

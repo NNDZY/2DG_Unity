@@ -28,27 +28,31 @@ public class StageMenu : MonoBehaviour
     [SerializeField] TMP_Text txtSongComposer = null;
     [SerializeField] Image imgDisk = null;
 
-    //[SerializeField] TMP_Text txtSongScore = null;
 
 
     [SerializeField] GameObject titleMenu = null;
 
 
-    //DataManager dataManager;
 
 
     //현재 노래가 무엇인지 담을 변수
     int currentSong = 0;
 
 
-    void Start()
-    {
-        //if(dataManager==null)
-        //{ 
-        //dataManager = FindObjectOfType<DataManager>();
-        //}
+    //void Start()
+    //{
+    //    //if(dataManager==null)
+    //    //{ 
+    //    //dataManager = FindObjectOfType<DataManager>();
+    //    //}
 
+    //    SettingSong();
+    //}
+
+    private void OnEnable()
+    {
         SettingSong();
+
     }
 
 
@@ -88,13 +92,13 @@ public class StageMenu : MonoBehaviour
     //현재 곡에대한 정보를 반영하는 함수
     public void SettingSong()
     {
+
         txtSongName.text = songList[currentSong].name;
         txtSongComposer.text = songList[currentSong].composer;
         imgDisk.sprite = songList[currentSong].sprite;
 
         AudioManager.instance.PlayBGM("BGM" + (currentSong+1));
 
-        //txtSongScore.text = string.Format("{0:#,##0}", dataManager.score[currentSong]);
     }
 
 
@@ -106,9 +110,10 @@ public class StageMenu : MonoBehaviour
     //타이틀메뉴 활성화, 스테이지메뉴 비활성화
     public void ButtonBack()
     {
+        AudioManager.instance.PlayBGM("BGM4");
         titleMenu.SetActive(true);
         this.gameObject.SetActive(false);
-        AudioManager.instance.StopBGM();
+
     }
 
 
@@ -116,13 +121,16 @@ public class StageMenu : MonoBehaviour
 
     public void ButtonPlay()
     {
-        
+        AudioManager.instance.PlaySFX("Choice");
+
+
         int t_bpm = songList[currentSong].bpm;
 
 
         //플레이버튼을 누르면 게임이 시작되고, 스테이지메뉴를 비활성화함
         GameManager.instance.GameStart(currentSong, t_bpm);
         this.gameObject.SetActive(false);
+
 
         SettingSong();
 

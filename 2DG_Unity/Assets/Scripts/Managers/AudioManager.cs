@@ -101,4 +101,37 @@ public class AudioManager : MonoBehaviour
         Debug.Log(p_sfxName + "효과음이 목록에 없다");
 
     }
+    public void StopSFX(string p_sfxName)
+    {
+        for (int i = 0; i < sfx.Length; i++)
+        {
+            //파라미터의 이름과 해당 bgm배열 안의 이름이 같다면 배열[i]의 클립으로 대체하고 종료
+            if (p_sfxName == sfx[i].name)
+            {
+
+                for (int x = 0; x < sfxPlayer.Length; x++)
+                {
+
+                    //노래가 재생중이라면
+                    if (sfxPlayer[x].isPlaying)
+                    {
+                        //x번째의 효과음으로 대체하고 종료
+                        sfxPlayer[x].clip = sfx[i].clip;
+                        sfxPlayer[x].Stop();
+                        return;
+                    }
+
+
+                }
+                //포문을 전부 돌아도 재생중인 배열이 없다면
+                Debug.Log("재생중인 효과음이 없음");
+                return;
+
+
+            }
+        }
+        Debug.Log(p_sfxName + "효과음이 목록에 없다");
+
+    }
+
 }

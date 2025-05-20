@@ -60,10 +60,6 @@ public class ScoreManager : MonoBehaviour
         txtScore.text = "0";
 
     }
-
-
-
-
     //점수가 증가하는 함수(콤보, 판정 가중치 반영)
     public void IncreaseScore(int p_judgementState)
     {        
@@ -87,22 +83,11 @@ public class ScoreManager : MonoBehaviour
         txtScore.text = string.Format("{0:#,##0}", currentScore);
 
 
-        //점수 애니메이션
-        //animator.SetTrigger("ScoreUp");
-
-
     }
-
-
-
     //현재 점수를 가져오는 함수
     public int GetCurrentScore()
     {
         return currentScore;
     }
-
-
-
-
 
 }

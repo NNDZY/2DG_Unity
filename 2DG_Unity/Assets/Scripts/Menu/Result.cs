@@ -32,20 +32,18 @@ public class Result : MonoBehaviour
     ComboManager comboManager;
     TimingManager timingManager;
     SceneChanger scenechanger;
-    //DataManager dataManager;
 
 
     private void Awake()
     {
-        //DontDestroyOnLoad(this.gameObject);
-        scenechanger = FindObjectOfType<SceneChanger>();
     }
 
     private void Start()
     {
+
+        scenechanger = FindObjectOfType<SceneChanger>();
         comboManager = FindObjectOfType<ComboManager>();
         timingManager = FindObjectOfType<TimingManager>();
-        //dataManager = FindObjectOfType<DataManager>();
     }
 
 
@@ -58,13 +56,8 @@ public class Result : MonoBehaviour
 
     public void ShowResult()
     {
-        GameManager.instance.isStartGame = false;
 
         AudioManager.instance.StopBGM();
-
-        //scenechanger.GotoResultScene();
-
-
 
         //UI창 활성화
         goUI.SetActive(true);
@@ -94,22 +87,18 @@ public class Result : MonoBehaviour
         txtScore.text = string.Format("{0:#,##0}", t_currentScore);
         txtMaxCombo.text = string.Format("{0:#,##0}", t_maxCombo);
 
-
-        //현재 곡의 점수가 기존 최고점보다 높으면, 최고점을 바꿔준다
-        //if(t_currentScore> dataManager.score[currentSong])
-        //{
-        //    dataManager.score[currentSong] = t_currentScore;
-        //    dataManager.SaveScore();
-
-        //}
     }
 
 
     public void ButtonMainMenu()
     {
+        AudioManager.instance.PlaySFX("Choice");
+
         goUI.SetActive(false);
+
         GameManager.instance.GoMainMenu();
     }
+
 
 
 

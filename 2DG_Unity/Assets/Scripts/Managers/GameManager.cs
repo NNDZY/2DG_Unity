@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
 
 
     public bool isStartGame;
+    public bool isGameOver;
 
 
     ComboManager combomanager;
@@ -25,8 +26,6 @@ public class GameManager : MonoBehaviour
     NoteManager noteManager;
     Result result;
 
-    //비활성화된 파라미터는 불러올수 없어서 인스펙터로 직접 넣어줘야함
-    [SerializeField] CenterFrame theMusic;
 
 
 
@@ -36,6 +35,7 @@ public class GameManager : MonoBehaviour
         instance = this;
 
         isStartGame = false;
+        isGameOver = false;
 
         noteManager = FindObjectOfType<NoteManager>();
         combomanager = FindObjectOfType<ComboManager>();
@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-   
+   //스테이지->게임시작 클릭시 실행될 함수
     public void GameStart(int p_songNum, int p_bpm)
     {
         //모든 게임UI를 활성화할때까지 반복
@@ -55,22 +55,19 @@ public class GameManager : MonoBehaviour
             goGameUI[i].SetActive(true);
         }
 
-        theMusic.bgmName = "BGM" + p_songNum;
-
         //게임시작시 bpm을 변화시킨다
         noteManager.bpm = p_bpm;
 
-
         //노트스폰 배열을 처음으로 되돌린다
         noteManager.ResetNote();
+        noteManager.MoveNote();
 
 
         //게임 재시작시 기록을 초기화
-        combomanager.ResetMaxCombo();
-        combomanager.ResetCurrentcombo();
-        timingManager.Initialized();
-        statusManager.Initialized();
-        playerController.Initialized();
+        combomanager.ResetMaxCombo();   //최고콤보 초기화
+        combomanager.ResetCurrentcombo();   //현재콤보 초기화
+        timingManager.Initialized();    //판정기록 초기화
+        statusManager.Initialized();    //체력 회복
         ScoreManager.instance.Initialized();
         result.SetCurrentSong(p_songNum);
 
@@ -78,11 +75,24 @@ public class GameManager : MonoBehaviour
 
         result.isResultShown = false;
         isStartGame = true;
+        isGameOver = false;
+    }
+
+
+    public void GameOver()
+    {
+        NoteManager.instance.RemoveNote();     //노트를 지움
+        isStartGame = false;
+        isGameOver = true;
+        result.isResultShown = true;
+
+        result.ShowResult();          //죽으면 결과창 출력
     }
 
     
     public void GoMainMenu()
     {
+        AudioManager.instance.PlayBGM("BGM4");
 
         //모든 게임UI를 비활성화할때까지 반복
         for (int i = 0; i < goGameUI.Length; i++)

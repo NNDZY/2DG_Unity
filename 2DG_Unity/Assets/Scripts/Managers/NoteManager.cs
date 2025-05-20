@@ -243,7 +243,7 @@ public class NoteManager : MonoBehaviour
 
     public Transform[] spawnPoints; // 0: AA, 1: BB, 2: CC
 
-    public int bpm = 155;
+    public int bpm = 0;
 
     private List<NoteData> notes;
     private int nextIndex = 0;
@@ -272,13 +272,15 @@ public class NoteManager : MonoBehaviour
 
     void Update()
     {
-        MoveNote();
+        if(GameManager.instance.isStartGame)
+        { 
+            MoveNote();
+        }
     }
 
-
+    //노트를 발생시키는함수
     public void MoveNote()
     {
-        if (!GameManager.instance.isStartGame) return;
 
         float songTime = audioSource.time;
 
@@ -293,10 +295,8 @@ public class NoteManager : MonoBehaviour
         if (!audioSource.isPlaying && !result.isResultShown)
         {
             Debug.Log("노래 종료");
-            result.isResultShown = true;
-            result.ShowResult();
-            RemoveNote();
-            nextIndex = 0;
+            GameManager.instance.GameOver();
+            //nextIndex = 0;
         }
 
     }
@@ -360,11 +360,11 @@ public class NoteManager : MonoBehaviour
 
             }
             //노트가 리스트에 존재하고 있다면
-            //if (timingManager.createdNoteList.Contains(collision.gameObject))
-            //{
-            //    //파괴하기전 리스트에서 삭제
-            //    timingManager.createdNoteList.Remove(collision.gameObject);
-            //}
+            if (timingManager.createdNoteList.Contains(collision.gameObject))
+            {
+                //파괴하기전 리스트에서 삭제
+                timingManager.createdNoteList.Remove(collision.gameObject);
+            }
 
 
             // 태그에 따라 맞는 큐에만 반납
@@ -396,7 +396,6 @@ public class NoteManager : MonoBehaviour
 
     public void RemoveNote()
     {
-        GameManager.instance.isStartGame = false;
 
         for (int i = 0; i < timingManager.createdNoteList.Count; i++)
         {
@@ -410,6 +409,7 @@ public class NoteManager : MonoBehaviour
                 ObjectPool.instance.noteQueueB.Enqueue(note);
             else if (note.CompareTag("NoteY"))
                 ObjectPool.instance.noteQueueY.Enqueue(note);
+
         }
 
         timingManager.createdNoteList.Clear();
