@@ -25,11 +25,14 @@ public class StatusManager : MonoBehaviour
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     Result result;
     NoteManager noteManager;
 =======
 >>>>>>> Stashed changes
 
+=======
+>>>>>>> Stashed changes
 
     private void Start()
     {
@@ -37,8 +40,11 @@ public class StatusManager : MonoBehaviour
         fill.fillAmount = 1;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         result = FindObjectOfType<Result>();
         noteManager = FindObjectOfType<NoteManager>();
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     }
@@ -71,6 +77,10 @@ public class StatusManager : MonoBehaviour
 =======
             Debug.Log("게임오버");
             GameManager.instance.GameOver();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+         
 >>>>>>> Stashed changes
         }
 
@@ -82,10 +92,7 @@ public class StatusManager : MonoBehaviour
     {
         currentHP++;
 
-        if(currentHP>=maxHP)
-        {
-            currentHP = maxHP;
-        }
+        if(currentHP>=maxHP)  currentHP = maxHP;
     }
 
     //체력회복 콤보를 체크하는 함수
@@ -101,7 +108,6 @@ public class StatusManager : MonoBehaviour
             IncreaseHP();
         }
         fill.fillAmount = (float)currentHP / maxHP;
-
     }
 
     //중간에 콤보가 끊기면 체력 회복콤보도 리셋되는 함수

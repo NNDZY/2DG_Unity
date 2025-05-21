@@ -4480,6 +4480,9 @@ MonoBehaviour:
 =======
   goHowtoUI: {fileID: 1193573898}
   stageMenu: {fileID: 2042487520}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!224 &808928671
 RectTransform:
@@ -5492,6 +5495,9 @@ MonoBehaviour:
   goStageUI: {fileID: 2042487518}
   goHowtoUI: {fileID: 1193573898}
   stageMenu: {fileID: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1237346073
 GameObject:

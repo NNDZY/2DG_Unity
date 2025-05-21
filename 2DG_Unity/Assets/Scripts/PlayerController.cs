@@ -16,6 +16,12 @@ public class PlayerController : MonoBehaviour
 {
     TimingManager timingManager;
 
+<<<<<<< Updated upstream
+=======
+
+
+
+>>>>>>> Stashed changes
     void Start()
     {
         timingManager = FindObjectOfType<TimingManager>();

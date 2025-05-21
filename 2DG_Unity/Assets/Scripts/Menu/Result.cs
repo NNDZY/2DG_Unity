@@ -13,7 +13,6 @@ public class Result : MonoBehaviour
     //결과창에 들어갈 수치 입력(판정, 점수, 콤보)
 
     //ui에 접근
-    //[SerializeField] GameObject goUI = null;
     public GameObject goUI = null;
 
     //판정
@@ -29,6 +28,7 @@ public class Result : MonoBehaviour
     TimingManager timingManager;
 
 
+<<<<<<< Updated upstream
     private void Awake()
     {
 <<<<<<< Updated upstream
@@ -41,12 +41,14 @@ public class Result : MonoBehaviour
 
     private void Start()
     {
+=======
+    private void Start()
+    {
+
+>>>>>>> Stashed changes
         comboManager = FindObjectOfType<ComboManager>();
         timingManager = FindObjectOfType<TimingManager>();
     }
-
-
-
     public void SetCurrentSong(int p_songNum)
     {
         currentSong = p_songNum;
@@ -56,11 +58,15 @@ public class Result : MonoBehaviour
     public void ShowResult()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
         scenechanger.GotoResultScene();
 
         //결과창이 나오면 플레이음악을 멈춘다 
         FindObjectOfType<CenterFrame>().ResetMusic();
+=======
+        isResultShown = true;
+>>>>>>> Stashed changes
 
         AudioManager.instance.StopBGM();
 
@@ -103,6 +109,7 @@ public class Result : MonoBehaviour
 
     public void ButtonMainMenu()
     {
+<<<<<<< Updated upstream
         goUI.SetActive(false);
 <<<<<<< Updated upstream
         GameManager.instance.MainMenu();
@@ -112,6 +119,12 @@ public class Result : MonoBehaviour
         isResultShown = false;
         AudioManager.instance.PlayBGM("MainBGM");
 
+>>>>>>> Stashed changes
+=======
+        AudioManager.instance.PlaySFX("Choice");
+        goUI.SetActive(false);
+        GameManager.instance.GoMainMenu();
+        AudioManager.instance.PlayBGM("MainBGM");
 >>>>>>> Stashed changes
     }
 

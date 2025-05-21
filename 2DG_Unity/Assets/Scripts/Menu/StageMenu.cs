@@ -35,7 +35,11 @@ public class StageMenu : MonoBehaviour
     int currentSong = 0;
 
 
+<<<<<<< Updated upstream
     void Start()
+=======
+    private void OnEnable()
+>>>>>>> Stashed changes
     {
         SettingSong();
     }
@@ -72,8 +76,6 @@ public class StageMenu : MonoBehaviour
     }
 
     
-
-
     //현재 곡에대한 정보를 반영하는 함수
     public void SettingSong()
     {
@@ -84,6 +86,7 @@ public class StageMenu : MonoBehaviour
         AudioManager.instance.PlayBGM("BGM" + (currentSong+1));
 
     }
+<<<<<<< Updated upstream
 
 
     //타이틀메뉴 활성화, 스테이지메뉴 비활성화
@@ -95,6 +98,18 @@ public class StageMenu : MonoBehaviour
         AudioManager.instance.StopBGM();
         AudioManager.instance.PlayBGM("MainBGM");
     }
+=======
+    //타이틀메뉴 활성화, 스테이지메뉴 비활성화
+    public void ButtonBack()
+    {
+        titleMenu.SetActive(true);
+        this.gameObject.SetActive(false);
+
+        AudioManager.instance.StopBGM();
+        AudioManager.instance.PlayBGM("MainBGM");
+    }
+
+>>>>>>> Stashed changes
     public void ButtonPlay()
     {
         

@@ -7,11 +7,14 @@
 
 // */
 
+<<<<<<< Updated upstream
 
 
 
 
 
+=======
+>>>>>>> Stashed changes
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -74,6 +77,7 @@ public class NoteManager : MonoBehaviour
     {
         if (GameManager.instance.isStartGame)
         {
+<<<<<<< Updated upstream
             float songTime = audioSource.time;
 
             //노트를 발생시킨다
@@ -90,6 +94,10 @@ public class NoteManager : MonoBehaviour
                 GameManager.instance.GameOver();
             }
 
+=======
+            Debug.Log("노래 종료");
+            GameManager.instance.GameOver();
+>>>>>>> Stashed changes
         }
 
 
@@ -97,8 +105,13 @@ public class NoteManager : MonoBehaviour
 
     public void ResetNote()
     {
+<<<<<<< Updated upstream
         //인덱스를 처음으로 되돌림
         nextIndex = 0;        
+=======
+        //인덱스를 처음으로 되돌림..?
+        nextIndex = 0;
+>>>>>>> Stashed changes
     }
 
 
@@ -183,11 +196,14 @@ public class NoteManager : MonoBehaviour
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 
 
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     public void RemoveNote()
@@ -197,7 +213,6 @@ public class NoteManager : MonoBehaviour
         for (int i = 0; i < timingManager.createdNoteList.Count; i++)
         {
             GameObject note = timingManager.createdNoteList[i];
-            note.SetActive(false);
 
             // 각각의 큐로 반환
             if (note.CompareTag("NoteR"))
@@ -206,6 +221,11 @@ public class NoteManager : MonoBehaviour
                 ObjectPool.instance.noteQueueB.Enqueue(note);
             else if (note.CompareTag("NoteY"))
                 ObjectPool.instance.noteQueueY.Enqueue(note);
+<<<<<<< Updated upstream
+=======
+
+             note.SetActive(false);
+>>>>>>> Stashed changes
         }
 
         timingManager.createdNoteList.Clear();

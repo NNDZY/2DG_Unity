@@ -56,9 +56,6 @@ public class ComboManager : MonoBehaviour
             //콤보이미지 애니메이션
             animator.SetTrigger("ComboUp");
         }
-
-
-
     }
 
     //최대콤보가 몇인지 반환하는 함수

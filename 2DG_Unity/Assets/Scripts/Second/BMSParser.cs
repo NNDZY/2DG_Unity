@@ -59,12 +59,13 @@ public class BMSParser : MonoBehaviour
                 if (note == "00") continue; //00 : 노트없음
 
                 int lane = -1;
-                if (note == "AA") lane = 0;
-                else if (note == "BB") lane = 1;
-                else if (note == "CC") lane = 2;
+                if (note == "AA") lane = 2;     //Y
+                else if (note == "BB") lane = 0;    //R
+                else if (note == "CC") lane = 1;    //B
                 else continue;
 
                 float timing = measureTime + ((float)i / totalDiv) * 4f * beatDuration;
+<<<<<<< Updated upstream
                 notes.Add(new NoteData2 { time = timing, lane = lane });
             }
         }
@@ -73,3 +74,17 @@ public class BMSParser : MonoBehaviour
         return notes;
     }
 }
+=======
+                Debug.Log($"[NOTE] measure:{measure}, channel:{channel}, i:{i}, note:{note}, timing:{timing:F4}, lane:{lane}");
+                notes.Add(new NoteData { time = timing, lane = lane });
+            }
+        }
+
+      
+
+
+        Debug.Log($"노트 개수: {notes.Count}");
+        return notes;
+    }
+}
+>>>>>>> Stashed changes

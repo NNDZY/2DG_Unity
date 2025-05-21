@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-//using System.Numerics;
 using UnityEngine;
 
 /*
@@ -34,6 +33,10 @@ public class TimingManager : MonoBehaviour
     EffectManager effectManager;
     ComboManager comboManager;
     StatusManager statusManager;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 
     [SerializeField] RectTransform judgmentLinePrefab;
@@ -63,6 +66,7 @@ public class TimingManager : MonoBehaviour
 
         }
 
+<<<<<<< Updated upstream
 
 
 
@@ -85,6 +89,8 @@ public class TimingManager : MonoBehaviour
         //    clone.anchoredPosition = new Vector2(centerX, 0f);
         //    clone.sizeDelta = new Vector2(width, 10f); // 10은 높이
         //}
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
@@ -119,7 +125,10 @@ public class TimingManager : MonoBehaviour
                     note.HideNote();
                     createdNoteList.RemoveAt(j);
                     j--;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
                     //판정이 퍼펙, 그레잍,굿일때만 타격이펙트 호출
                     if (k<timingPositions.Length-1)

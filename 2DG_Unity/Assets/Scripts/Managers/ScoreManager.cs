@@ -36,7 +36,10 @@ public class ScoreManager : MonoBehaviour
             Destroy(gameObject);  // 중복 방지
         }
         instance = this;
+<<<<<<< Updated upstream
         DontDestroyOnLoad(gameObject);  // 씬 넘어가도 유지
+=======
+>>>>>>> Stashed changes
 
     }
 
@@ -73,8 +76,6 @@ public class ScoreManager : MonoBehaviour
         //판정 가중치 계산(weight)
         int t_increaseScore = increaseScore + t_bonusComboScore;
         t_increaseScore = (int)(t_increaseScore * weight[p_judgementState]);
-
-
 
         //점수 출력
         currentScore += t_increaseScore;

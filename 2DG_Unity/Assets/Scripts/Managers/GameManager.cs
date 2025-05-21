@@ -8,7 +8,11 @@ public class GameManager : MonoBehaviour
     //게임플레이시 활성화시킬UI를 배열로만든다
     [SerializeField] GameObject[] goGameUI = null;
     [SerializeField] GameObject goTitleUI = null;
+<<<<<<< Updated upstream
     [SerializeField] Result result;
+=======
+    [SerializeField] Result result =null; 
+>>>>>>> Stashed changes
 
 
 
@@ -43,6 +47,9 @@ public class GameManager : MonoBehaviour
         isStartGame = false;
         isGameOver = false;
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         combomanager = FindObjectOfType<ComboManager>();
         timingManager = FindObjectOfType<TimingManager>();
@@ -63,9 +70,12 @@ public class GameManager : MonoBehaviour
 
         //게임시작시 bpm을 변화시킨다
         NoteManager.instance.bpm = p_bpm;
+<<<<<<< Updated upstream
 
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
         //노트스폰 배열을 처음으로 되돌린다
         NoteManager.instance.ResetNote();
@@ -100,13 +110,20 @@ public class GameManager : MonoBehaviour
     {
         isStartGame = false;
         isGameOver = true;
-        result.isResultShown = true;
+        result.isResultShown = false;
 
         NoteManager.instance.RemoveNote();     //노트를 지움
         result.ShowResult();          //죽으면 결과창 출력
 
     }
 
+<<<<<<< Updated upstream
+=======
+    
+    public void GoMainMenu()
+    {
+        AudioManager.instance.PlayBGM("MainBGM");
+>>>>>>> Stashed changes
 
     public void GoMainMenu()
 >>>>>>> Stashed changes
