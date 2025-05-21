@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -132,3 +133,6 @@ public class BMSParser : MonoBehaviour
         return notes;
     }
 }
+=======
+
+>>>>>>> Stashed changes

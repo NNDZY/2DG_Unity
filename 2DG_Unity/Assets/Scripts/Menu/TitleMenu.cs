@@ -11,7 +11,11 @@ public class TitleMenu : MonoBehaviour
 
     [SerializeField] GameObject goStageUI = null;
     [SerializeField] GameObject goHowtoUI = null;
+<<<<<<< Updated upstream
 
+=======
+    [SerializeField] StageMenu stageMenu;
+>>>>>>> Stashed changes
 
     StageMenu stageMenu;
 
@@ -25,13 +29,27 @@ public class TitleMenu : MonoBehaviour
         //타이틀의 플레이버튼을 누르면, 스테이지메뉴가 활성화하고 타이틀은 비활성화된다
         AudioManager.instance.PlaySFX("Choice");
         AudioManager.instance.StopBGM();
+<<<<<<< Updated upstream
         AudioManager.instance.StopSFX("Main");
         goStageUI.SetActive(true);
         this.gameObject.SetActive(false);
 
         stageMenu.SettingSong(); //null
+=======
+        stageMenu.SettingSong();
+>>>>>>> Stashed changes
 
+    }
 
+    public void ButtonHowto()
+    {
+        AudioManager.instance.PlaySFX("Choice");
+        goHowtoUI.SetActive(true);
+    }
+    public void ButtonHowtoOut()
+    {
+        AudioManager.instance.PlaySFX("Choice");
+        goHowtoUI.SetActive(false);
 
     }
 
